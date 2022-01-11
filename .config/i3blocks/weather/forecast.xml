@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weatherdata>
+  <apiChanges>
+    <!--NB!!! Since we have no other options to contact our users of forecast.xml, we have decided to use this method to get your attention to some major changes with our API-->
+    <!--This summer, forecast.xml and forecast_hour_by_hour.xml will be discontinued in favour of a newer JSON API. An exactly date is not set yet.-->
+    <!--Vi encourage you already now to switch to the new API.-->
+    <!--There are a lot of changes, and you can read all the technical details in our new developer portal https://developer.yr.no-->
+  </apiChanges>
+  <location>
+    <name>Linköping</name>
+    <type>Regional capital</type>
+    <country>Sweden</country>
+    <timezone id="Europe/Stockholm" utcoffsetMinutes="60" />
+    <location altitude="58" latitude="58.41086" longitude="15.62157" geobase="geonames" geobaseid="2694762" />
+  </location>
+  <credit>
+    <!--In order to use the free weather data from yr no, you HAVE to display 
+the following text clearly visible on your web page. The text should be a 
+link to the specified URL.-->
+    <!--Please read more about our conditions and guidelines at http://om.yr.no/verdata/  English explanation at http://om.yr.no/verdata/free-weather-data/-->
+    <link text="Weather forecast from Yr, delivered by the Norwegian Meteorological Institute and the NRK" url="http://www.yr.no/place/Sweden/Östergötland/Linköping/" />
+  </credit>
+  <links>
+    <link id="xmlSource" url="http://www.yr.no/place/Sweden/Östergötland/Linköping/forecast.xml" />
+    <link id="xmlSourceHourByHour" url="http://www.yr.no/place/Sweden/Östergötland/Linköping/forecast_hour_by_hour.xml" />
+    <link id="overview" url="http://www.yr.no/place/Sweden/Östergötland/Linköping/" />
+    <link id="hourByHour" url="http://www.yr.no/place/Sweden/Östergötland/Linköping/hour_by_hour" />
+    <link id="longTermForecast" url="http://www.yr.no/place/Sweden/Östergötland/Linköping/long" />
+    <link id="nowcast" url="http://www.yr.no/place/Sweden/Östergötland/Linköping/varsel_nu.xml" />
+  </links>
+  <meta>
+    <lastupdate>2022-01-07T17:14:00</lastupdate>
+    <nextupdate>2022-01-07T18:14:00</nextupdate>
+  </meta>
+  <sun rise="2022-01-07T08:42:34" set="2022-01-07T15:25:27" />
+  <forecast>
+    <tabular>
+      <time from="2022-01-07T17:00:00" to="2022-01-07T18:00:00" period="2">
+        <!-- Valid from 2022-01-07T17:00:00 to 2022-01-07T18:00:00 -->
+        <symbol number="13" numberEx="13" name="Snow" var="13" />
+        <precipitation value="0.3" minvalue="0.2" maxvalue="0.6" />
+        <!-- Valid at 2022-01-07T17:00:00 -->
+        <windDirection deg="132.7" code="SE" name="Southeast" />
+        <windSpeed mps="3.0" name="Light breeze" />
+        <temperature unit="celsius" value="-1" />
+        <pressure unit="hPa" value="1005.3" />
+      </time>
+      <time from="2022-01-07T18:00:00" to="2022-01-08T00:00:00" period="3">
+        <!-- Valid from 2022-01-07T18:00:00 to 2022-01-08T00:00:00 -->
+        <symbol number="13" numberEx="13" name="Snow" var="13" />
+        <precipitation value="3.5" minvalue="1.2" maxvalue="4.3" />
+        <!-- Valid at 2022-01-07T18:00:00 -->
+        <windDirection deg="130.9" code="SE" name="Southeast" />
+        <windSpeed mps="2.7" name="Light breeze" />
+        <temperature unit="celsius" value="-1" />
+        <pressure unit="hPa" value="1005.1" />
+      </time>
+      <time from="2022-01-08T00:00:00" to="2022-01-08T06:00:00" period="0">
+        <!-- Valid from 2022-01-08T00:00:00 to 2022-01-08T06:00:00 -->
+        <symbol number="13" numberEx="13" name="Snow" var="13" />
+        <precipitation value="1.3" minvalue="0" maxvalue="3.0" />
+        <!-- Valid at 2022-01-08T00:00:00 -->
+        <windDirection deg="148.3" code="SSE" name="South-southeast" />
+        <windSpeed mps="2.2" name="Light breeze" />
+        <temperature unit="celsius" value="0" />
+        <pressure unit="hPa" value="1004.3" />
+      </time>
+      <time from="2022-01-08T06:00:00" to="2022-01-08T12:00:00" period="1">
+        <!-- Valid from 2022-01-08T06:00:00 to 2022-01-08T12:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" minvalue="0" maxvalue="0.8" />
+        <!-- Valid at 2022-01-08T06:00:00 -->
+        <windDirection deg="198.4" code="SSW" name="South-southwest" />
+        <windSpeed mps="1.7" name="Light breeze" />
+        <temperature unit="celsius" value="-2" />
+        <pressure unit="hPa" value="1002.8" />
+      </time>
+      <time from="2022-01-08T12:00:00" to="2022-01-08T18:00:00" period="2">
+        <!-- Valid from 2022-01-08T12:00:00 to 2022-01-08T18:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" minvalue="0" maxvalue="0.8" />
+        <!-- Valid at 2022-01-08T12:00:00 -->
+        <windDirection deg="186.1" code="S" name="South" />
+        <windSpeed mps="1.8" name="Light breeze" />
+        <temperature unit="celsius" value="1" />
+        <pressure unit="hPa" value="1001.6" />
+      </time>
+      <time from="2022-01-08T18:00:00" to="2022-01-09T00:00:00" period="3">
+        <!-- Valid from 2022-01-08T18:00:00 to 2022-01-09T00:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" minvalue="0" maxvalue="1.2" />
+        <!-- Valid at 2022-01-08T18:00:00 -->
+        <windDirection deg="134.3" code="SE" name="Southeast" />
+        <windSpeed mps="1.8" name="Light breeze" />
+        <temperature unit="celsius" value="-3" />
+        <pressure unit="hPa" value="999.3" />
+      </time>
+      <time from="2022-01-09T00:00:00" to="2022-01-09T06:00:00" period="0">
+        <!-- Valid from 2022-01-09T00:00:00 to 2022-01-09T06:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-09T00:00:00 -->
+        <windDirection deg="52.4" code="NE" name="Northeast" />
+        <windSpeed mps="2.1" name="Light breeze" />
+        <temperature unit="celsius" value="-2" />
+        <pressure unit="hPa" value="998.2" />
+      </time>
+      <time from="2022-01-09T06:00:00" to="2022-01-09T12:00:00" period="1">
+        <!-- Valid from 2022-01-09T06:00:00 to 2022-01-09T12:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-09T06:00:00 -->
+        <windDirection deg="55.3" code="NE" name="Northeast" />
+        <windSpeed mps="3.0" name="Light breeze" />
+        <temperature unit="celsius" value="-2" />
+        <pressure unit="hPa" value="999.5" />
+      </time>
+      <time from="2022-01-09T12:00:00" to="2022-01-09T18:00:00" period="2">
+        <!-- Valid from 2022-01-09T12:00:00 to 2022-01-09T18:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-09T12:00:00 -->
+        <windDirection deg="44.7" code="NE" name="Northeast" />
+        <windSpeed mps="2.6" name="Light breeze" />
+        <temperature unit="celsius" value="-1" />
+        <pressure unit="hPa" value="1003.6" />
+      </time>
+      <time from="2022-01-09T18:00:00" to="2022-01-10T00:00:00" period="3">
+        <!-- Valid from 2022-01-09T18:00:00 to 2022-01-10T00:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" minvalue="0" maxvalue="0.9" />
+        <!-- Valid at 2022-01-09T18:00:00 -->
+        <windDirection deg="53.3" code="NE" name="Northeast" />
+        <windSpeed mps="2.1" name="Light breeze" />
+        <temperature unit="celsius" value="-2" />
+        <pressure unit="hPa" value="1008.8" />
+      </time>
+      <time from="2022-01-10T01:00:00" to="2022-01-10T07:00:00" period="0">
+        <!-- Valid from 2022-01-10T01:00:00 to 2022-01-10T07:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-10T01:00:00 -->
+        <windDirection deg="53.0" code="NE" name="Northeast" />
+        <windSpeed mps="2.0" name="Light breeze" />
+        <temperature unit="celsius" value="-3" />
+        <pressure unit="hPa" value="1016.7" />
+      </time>
+      <time from="2022-01-10T07:00:00" to="2022-01-10T13:00:00" period="1">
+        <!-- Valid from 2022-01-10T07:00:00 to 2022-01-10T13:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-10T07:00:00 -->
+        <windDirection deg="61.4" code="ENE" name="East-northeast" />
+        <windSpeed mps="2.0" name="Light breeze" />
+        <temperature unit="celsius" value="0" />
+        <pressure unit="hPa" value="1021.3" />
+      </time>
+      <time from="2022-01-10T13:00:00" to="2022-01-10T19:00:00" period="2">
+        <!-- Valid from 2022-01-10T13:00:00 to 2022-01-10T19:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-10T13:00:00 -->
+        <windDirection deg="77.3" code="ENE" name="East-northeast" />
+        <windSpeed mps="2.1" name="Light breeze" />
+        <temperature unit="celsius" value="0" />
+        <pressure unit="hPa" value="1027.0" />
+      </time>
+      <time from="2022-01-10T19:00:00" to="2022-01-11T01:00:00" period="3">
+        <!-- Valid from 2022-01-10T19:00:00 to 2022-01-11T01:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-10T19:00:00 -->
+        <windDirection deg="87.6" code="E" name="East" />
+        <windSpeed mps="2.0" name="Light breeze" />
+        <temperature unit="celsius" value="-1" />
+        <pressure unit="hPa" value="1030.7" />
+      </time>
+      <time from="2022-01-11T01:00:00" to="2022-01-11T07:00:00" period="0">
+        <!-- Valid from 2022-01-11T01:00:00 to 2022-01-11T07:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-11T01:00:00 -->
+        <windDirection deg="169.9" code="S" name="South" />
+        <windSpeed mps="1.7" name="Light breeze" />
+        <temperature unit="celsius" value="-1" />
+        <pressure unit="hPa" value="1031.8" />
+      </time>
+      <time from="2022-01-11T07:00:00" to="2022-01-11T13:00:00" period="1">
+        <!-- Valid from 2022-01-11T07:00:00 to 2022-01-11T13:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-11T07:00:00 -->
+        <windDirection deg="179.0" code="S" name="South" />
+        <windSpeed mps="3.0" name="Light breeze" />
+        <temperature unit="celsius" value="-1" />
+        <pressure unit="hPa" value="1031.4" />
+      </time>
+      <time from="2022-01-11T13:00:00" to="2022-01-11T19:00:00" period="2">
+        <!-- Valid from 2022-01-11T13:00:00 to 2022-01-11T19:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-11T13:00:00 -->
+        <windDirection deg="195.1" code="SSW" name="South-southwest" />
+        <windSpeed mps="3.7" name="Gentle breeze" />
+        <temperature unit="celsius" value="0" />
+        <pressure unit="hPa" value="1031.0" />
+      </time>
+      <time from="2022-01-11T19:00:00" to="2022-01-12T01:00:00" period="3">
+        <!-- Valid from 2022-01-11T19:00:00 to 2022-01-12T01:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-11T19:00:00 -->
+        <windDirection deg="201.9" code="SSW" name="South-southwest" />
+        <windSpeed mps="3.7" name="Gentle breeze" />
+        <temperature unit="celsius" value="1" />
+        <pressure unit="hPa" value="1029.4" />
+      </time>
+      <time from="2022-01-12T01:00:00" to="2022-01-12T07:00:00" period="0">
+        <!-- Valid from 2022-01-12T01:00:00 to 2022-01-12T07:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-12T01:00:00 -->
+        <windDirection deg="206.6" code="SSW" name="South-southwest" />
+        <windSpeed mps="3.0" name="Light breeze" />
+        <temperature unit="celsius" value="2" />
+        <pressure unit="hPa" value="1027.9" />
+      </time>
+      <time from="2022-01-12T07:00:00" to="2022-01-12T13:00:00" period="1">
+        <!-- Valid from 2022-01-12T07:00:00 to 2022-01-12T13:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-12T07:00:00 -->
+        <windDirection deg="224.9" code="SW" name="Southwest" />
+        <windSpeed mps="4.2" name="Gentle breeze" />
+        <temperature unit="celsius" value="2" />
+        <pressure unit="hPa" value="1024.4" />
+      </time>
+      <time from="2022-01-12T13:00:00" to="2022-01-12T19:00:00" period="2">
+        <!-- Valid from 2022-01-12T13:00:00 to 2022-01-12T19:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-12T13:00:00 -->
+        <windDirection deg="235.5" code="SW" name="Southwest" />
+        <windSpeed mps="6.4" name="Moderate breeze" />
+        <temperature unit="celsius" value="4" />
+        <pressure unit="hPa" value="1019.8" />
+      </time>
+      <time from="2022-01-12T19:00:00" to="2022-01-13T01:00:00" period="3">
+        <!-- Valid from 2022-01-12T19:00:00 to 2022-01-13T01:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03n" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-12T19:00:00 -->
+        <windDirection deg="238.5" code="WSW" name="West-southwest" />
+        <windSpeed mps="7.3" name="Moderate breeze" />
+        <temperature unit="celsius" value="5" />
+        <pressure unit="hPa" value="1013.4" />
+      </time>
+      <time from="2022-01-13T01:00:00" to="2022-01-13T07:00:00" period="0">
+        <!-- Valid from 2022-01-13T01:00:00 to 2022-01-13T07:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03n" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-13T01:00:00 -->
+        <windDirection deg="256.1" code="WSW" name="West-southwest" />
+        <windSpeed mps="7.0" name="Moderate breeze" />
+        <temperature unit="celsius" value="6" />
+        <pressure unit="hPa" value="1012.5" />
+      </time>
+      <time from="2022-01-13T07:00:00" to="2022-01-13T13:00:00" period="1">
+        <!-- Valid from 2022-01-13T07:00:00 to 2022-01-13T13:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-13T07:00:00 -->
+        <windDirection deg="257.2" code="WSW" name="West-southwest" />
+        <windSpeed mps="7.5" name="Moderate breeze" />
+        <temperature unit="celsius" value="6" />
+        <pressure unit="hPa" value="1010.1" />
+      </time>
+      <time from="2022-01-13T13:00:00" to="2022-01-13T19:00:00" period="2">
+        <!-- Valid from 2022-01-13T13:00:00 to 2022-01-13T19:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-13T13:00:00 -->
+        <windDirection deg="258.2" code="WSW" name="West-southwest" />
+        <windSpeed mps="7.8" name="Moderate breeze" />
+        <temperature unit="celsius" value="8" />
+        <pressure unit="hPa" value="1006.4" />
+      </time>
+      <time from="2022-01-13T19:00:00" to="2022-01-14T01:00:00" period="3">
+        <!-- Valid from 2022-01-13T19:00:00 to 2022-01-14T01:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03n" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-13T19:00:00 -->
+        <windDirection deg="272.2" code="W" name="West" />
+        <windSpeed mps="8.7" name="Fresh breeze" />
+        <temperature unit="celsius" value="8" />
+        <pressure unit="hPa" value="1003.6" />
+      </time>
+      <time from="2022-01-14T01:00:00" to="2022-01-14T07:00:00" period="0">
+        <!-- Valid from 2022-01-14T01:00:00 to 2022-01-14T07:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03n" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-14T01:00:00 -->
+        <windDirection deg="273.9" code="W" name="West" />
+        <windSpeed mps="8.8" name="Fresh breeze" />
+        <temperature unit="celsius" value="8" />
+        <pressure unit="hPa" value="1000.4" />
+      </time>
+      <time from="2022-01-14T07:00:00" to="2022-01-14T13:00:00" period="1">
+        <!-- Valid from 2022-01-14T07:00:00 to 2022-01-14T13:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-14T07:00:00 -->
+        <windDirection deg="273.8" code="W" name="West" />
+        <windSpeed mps="7.4" name="Moderate breeze" />
+        <temperature unit="celsius" value="5" />
+        <pressure unit="hPa" value="998.6" />
+      </time>
+      <time from="2022-01-14T13:00:00" to="2022-01-14T19:00:00" period="2">
+        <!-- Valid from 2022-01-14T13:00:00 to 2022-01-14T19:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-14T13:00:00 -->
+        <windDirection deg="293.1" code="WNW" name="West-northwest" />
+        <windSpeed mps="7.3" name="Moderate breeze" />
+        <temperature unit="celsius" value="5" />
+        <pressure unit="hPa" value="1001.1" />
+      </time>
+      <time from="2022-01-14T19:00:00" to="2022-01-15T01:00:00" period="3">
+        <!-- Valid from 2022-01-14T19:00:00 to 2022-01-15T01:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01n" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-14T19:00:00 -->
+        <windDirection deg="265.1" code="W" name="West" />
+        <windSpeed mps="7.2" name="Moderate breeze" />
+        <temperature unit="celsius" value="3" />
+        <pressure unit="hPa" value="1002.1" />
+      </time>
+      <time from="2022-01-15T01:00:00" to="2022-01-15T07:00:00" period="0">
+        <!-- Valid from 2022-01-15T01:00:00 to 2022-01-15T07:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03n" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-15T01:00:00 -->
+        <windDirection deg="304.0" code="NW" name="Northwest" />
+        <windSpeed mps="6.9" name="Moderate breeze" />
+        <temperature unit="celsius" value="2" />
+        <pressure unit="hPa" value="1004.6" />
+      </time>
+      <time from="2022-01-15T07:00:00" to="2022-01-15T13:00:00" period="1">
+        <!-- Valid from 2022-01-15T07:00:00 to 2022-01-15T13:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-15T07:00:00 -->
+        <windDirection deg="303.9" code="NW" name="Northwest" />
+        <windSpeed mps="5.5" name="Moderate breeze" />
+        <temperature unit="celsius" value="1" />
+        <pressure unit="hPa" value="1005.8" />
+      </time>
+      <time from="2022-01-15T13:00:00" to="2022-01-15T19:00:00" period="2">
+        <!-- Valid from 2022-01-15T13:00:00 to 2022-01-15T19:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-15T13:00:00 -->
+        <windDirection deg="325.6" code="NW" name="Northwest" />
+        <windSpeed mps="5.9" name="Moderate breeze" />
+        <temperature unit="celsius" value="2" />
+        <pressure unit="hPa" value="1007.7" />
+      </time>
+      <time from="2022-01-15T19:00:00" to="2022-01-16T01:00:00" period="3">
+        <!-- Valid from 2022-01-15T19:00:00 to 2022-01-16T01:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-15T19:00:00 -->
+        <windDirection deg="313.4" code="NW" name="Northwest" />
+        <windSpeed mps="5.1" name="Gentle breeze" />
+        <temperature unit="celsius" value="1" />
+        <pressure unit="hPa" value="1009.1" />
+      </time>
+      <time from="2022-01-16T01:00:00" to="2022-01-16T07:00:00" period="0">
+        <!-- Valid from 2022-01-16T01:00:00 to 2022-01-16T07:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-16T01:00:00 -->
+        <windDirection deg="268.7" code="W" name="West" />
+        <windSpeed mps="2.5" name="Light breeze" />
+        <temperature unit="celsius" value="0" />
+        <pressure unit="hPa" value="1010.9" />
+      </time>
+      <time from="2022-01-16T07:00:00" to="2022-01-16T13:00:00" period="1">
+        <!-- Valid from 2022-01-16T07:00:00 to 2022-01-16T13:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-16T07:00:00 -->
+        <windDirection deg="24.7" code="NNE" name="North-northeast" />
+        <windSpeed mps="3.3" name="Light breeze" />
+        <temperature unit="celsius" value="0" />
+        <pressure unit="hPa" value="1005.4" />
+      </time>
+      <time from="2022-01-16T13:00:00" to="2022-01-16T19:00:00" period="2">
+        <!-- Valid from 2022-01-16T13:00:00 to 2022-01-16T19:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2022-01-16T13:00:00 -->
+        <windDirection deg="307.1" code="NW" name="Northwest" />
+        <windSpeed mps="3.7" name="Gentle breeze" />
+        <temperature unit="celsius" value="1" />
+        <pressure unit="hPa" value="1011.4" />
+      </time>
+    </tabular>
+  </forecast>
+  <weatherstation stno="0" sttype="" name="" distance="0" lat="0" lon="0" source="">
+    <!--Observasjoner er ikke lengre tilgjengelig i dette datasettet. Observations are no longer availble in this dataset-->
+    <symbol number="0" name="" time="2019-11-14T00:00:00Z" />
+    <temperature unit="" value="0" time="2019-11-14T00:00:00Z" />
+    <windDirection deg="0" code="" name="" time="2019-11-14T00:00:00Z" />
+    <windSpeed mps="0" name="" time="2019-11-14T00:00:00Z" />
+  </weatherstation>
+</weatherdata>
