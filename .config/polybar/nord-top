@@ -313,7 +313,7 @@ type = custom/script
 interval = 1
 format-prefix = " "
 format = <label>
-exec = python3 /home/theglitchh/.config/polybar/scripts/spotify_status.py -f '{artist}: {song}'
+exec = python3 $HOME/.config/polybar/scripts/spotify_status.py -f '{artist}: {song}'
 format-underline = #1db954
 ;control players (optional)
 click-left = playerctl --player=spotify play-pause 
