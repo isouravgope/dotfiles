@@ -50,7 +50,7 @@ top-right = keyboard clipmenu-widget onedrive-widget clash-widget backlight alsa
 # Bottom modules
 bottom-left = powermenu info-hackspeed weather
 bottom-center = daily-poem
-bottom-right = temperature memory cpu
+bottom-right = network-detail temperature memory cpu
 systray-top = none
 systray-bottom = right
 
@@ -62,7 +62,7 @@ line-size = 6
 # if some of them doesn't suit your environment, you can change
 # it from here.
 # network interface, check by `ip link show`
-interface = wlo1
+interface = eno1
 
 # when the current battery capacity excess this value,
 # the full-capacity format will be displayed.

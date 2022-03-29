@@ -402,11 +402,12 @@ mode "$mode_gaps_outer" {
 exec_always --no-startup-id picom --config ~/.config/picom/picom.sample.conf
 exec_always --no-startup-id nitrogen --restore
 exec_always --no-startup-id ~/.config/i3/scripts/mouse.sh
-exec_always feh --bg-fill $HOME/Pictures/walls/15.png
+exec_always feh --bg-fill $HOME/Pictures/10.png
 exec_always --no-startup-id i3-auto-layout
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh dark
 exec_always --no-startup-id i3-auto-layout
 exec_always --no-startup-id devilspie
+exec_always --no-startup-id dunst -config $HOME/.config/dunst/base16-nord.dunstrc
 
 bindsym Mod4+Mod1+Shift+minus exec \
   i3-msg "gaps outer current minus 5" && \

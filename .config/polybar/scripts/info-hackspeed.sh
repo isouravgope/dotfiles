@@ -1,7 +1,7 @@
 #!/bin/sh
 # shellcheck disable=SC2016,SC2059
 
-KEYBOARD_ID="SEMICO USB Keyboard"
+KEYBOARD_ID="14"
 
 # cpm: characters per minute
 # wpm: words per minute (1 word = 5 characters)
