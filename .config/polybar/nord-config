@@ -45,11 +45,11 @@ wm-restack = i3
 # Top modules
 top-left = rofi-run i3
 top-center = spotify
-top-right = keyboard clipmenu-widget onedrive-widget clash-widget backlight alsa network-short battery date
+top-right = keyboard clipmenu-widget onedrive-widget clash-widget notify backlight alsa network-short battery date
 
 # Bottom modules
 bottom-left = powermenu info-hackspeed weather
-bottom-center = daily-poem
+bottom-center = title
 bottom-right = network-detail temperature memory cpu
 systray-top = none
 systray-bottom = right
