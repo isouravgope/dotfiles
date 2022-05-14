@@ -182,7 +182,7 @@ colors:
   primary:
     background: '#111111'
     foreground: '#d8dee9'
-    dim_foreground: '#a5abb6'
+    dim_foreground: '#3f3f3f'
   cursor:
     text: '#111111'
     cursor: '#d8dee9'
@@ -191,13 +191,13 @@ colors:
     cursor: '#d8dee9'
   selection:
     text: CellForeground
-    background: '#4c566a'
+    background: '#242424'
   search:
     matches:
       foreground: CellBackground
       background: '#88c0d0'
     bar:
-      background: '#434c5e'
+      background: '#242424'
       foreground: '#d8dee9'
   normal:
     black: '#111111'
@@ -209,7 +209,7 @@ colors:
     cyan: '#88c0d0'
     white: '#e5e9f0'
   bright:
-    black: '#000000'
+    black: '#4f4f4f' #for auto suggestion on zsh
     red: '#bf616a'
     green: '#a3be8c'
     yellow: '#ebcb8b'
@@ -218,7 +218,7 @@ colors:
     cyan: '#8fbcbb'
     white: '#eceff4'
   dim:
-    black: '#242424'
+    black: '#303030'
     red: '#94545d'
     green: '#809575'
     yellow: '#b29e75'
