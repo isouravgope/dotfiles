@@ -451,7 +451,7 @@ set $base0F #fcc09e
 
     # Window color settings
     # class                 border  backgr. text    indicator
-    client.focused          #81a1c1 #81a1c1 #ffffff #81a1c1
+    client.focused          #d00b0b #d00b0b #ffffff #ff5151
     client.unfocused        #2e3440 #2e3440 #888888 #2e3440
     client.focused_inactive #2e3440 #2e3440 #888888 #2e3440
     client.placeholder      #2e3440 #2e3440 #888888 #2e3440
