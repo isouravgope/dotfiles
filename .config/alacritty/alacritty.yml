@@ -180,14 +180,14 @@ font:
 
 colors:
   primary:
-    background: '#2e3440'
+    background: '#111111'
     foreground: '#d8dee9'
     dim_foreground: '#a5abb6'
   cursor:
-    text: '#2e3440'
+    text: '#111111'
     cursor: '#d8dee9'
   vi_mode_cursor:
-    text: '#2e3440'
+    text: '#111111'
     cursor: '#d8dee9'
   selection:
     text: CellForeground
@@ -200,7 +200,7 @@ colors:
       background: '#434c5e'
       foreground: '#d8dee9'
   normal:
-    black: '#3b4252'
+    black: '#111111'
     red: '#bf616a'
     green: '#a3be8c'
     yellow: '#ebcb8b'
@@ -209,7 +209,7 @@ colors:
     cyan: '#88c0d0'
     white: '#e5e9f0'
   bright:
-    black: '#4c566a'
+    black: '#000000'
     red: '#bf616a'
     green: '#a3be8c'
     yellow: '#ebcb8b'
@@ -218,7 +218,7 @@ colors:
     cyan: '#8fbcbb'
     white: '#eceff4'
   dim:
-    black: '#373e4d'
+    black: '#242424'
     red: '#94545d'
     green: '#809575'
     yellow: '#b29e75'
