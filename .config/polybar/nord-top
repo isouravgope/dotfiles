@@ -111,7 +111,7 @@ format-padding = 4
 
 label-maxlen = 30
 label-empty = Thefallnn @ Manjaro Linux
-label-empty-foreground = #2e3440
+label-empty-foreground = #111111
 
 [module/date]
 type = internal/date
@@ -289,8 +289,8 @@ ramp-signal-1 = 
 ramp-signal-2 = 
 ramp-signal-3 = 
 
-ramp-signal-0-foreground = ${colors.urgent}
-ramp-signal-0-underline = ${colors.urgent}
+ramp-signal-0-foreground = ${colors.nord8}
+ramp-signal-0-underline = ${colors.nord8}
 
 ramp-signal-1-foreground = ${colors.notify}
 ramp-signal-1-underline = ${colors.notify}
@@ -309,17 +309,21 @@ interval = 3
 
 click-left = ~/.config/polybar/scripts/clash.sh toggle
 
+
+
 [module/spotify]
 type = custom/script
 interval = 1
 format-prefix = " "
 format = <label>
 exec = python3 $HOME/.config/polybar/scripts/spotify_status.py -f '{artist}: {song}'
-format-underline = #1db954
+format-underline = #d00b0b
 ;control players (optional)
 click-left = playerctl --player=spotify play-pause 
 click-right = playerctl --player=spotify next 
 click-middle = playerctl --player=spotify previous
+
+
 
 [module/onedrive-widget]
 type = custom/script
