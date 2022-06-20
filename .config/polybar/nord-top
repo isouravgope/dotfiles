@@ -315,7 +315,7 @@ interval = 1
 format-prefix = " "
 format = <label>
 exec = python3 $HOME/.config/polybar/scripts/spotify_status.py -f '{artist}: {song}'
-format-underline = #1db954
+format-underline = #a3be8c
 ;control players (optional)
 click-left = playerctl --player=spotify play-pause 
 click-right = playerctl --player=spotify next 

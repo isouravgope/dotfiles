@@ -2,7 +2,7 @@
 
 [config]
 # DPI value for HiDPI screen
-dpi = 90
+dpi = 87
 monitor =
 
 # bar position, apply globally
@@ -55,14 +55,14 @@ systray-top = none
 systray-bottom = right
 
 # global style
-line-size = 6
+line-size = 4
 
 # Modules configure option
 # the default value in this section should work in most cases,
 # if some of them doesn't suit your environment, you can change
 # it from here.
 # network interface, check by `ip link show`
-interface = eno1
+interface = wlo1
 
 # when the current battery capacity excess this value,
 # the full-capacity format will be displayed.
