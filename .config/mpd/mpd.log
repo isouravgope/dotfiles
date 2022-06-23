@@ -1,0 +1,19 @@
+Jun 23 21:22 : exception: Failed to open '/home/thefallnn/.config/mpd/mpdstate': No such file or directory
+Jun 23 21:22 : config: option 'device' on line 13 was not recognized
+Jun 23 21:22 : update: added /Drake_-_Passionfruit_(getmp3.pro).mp3
+Jun 23 21:44 : exception: Failed to open /home/thefallnn/.config/mpd/playlists: No such file or directory
+Jun 23 21:45 : player: played "Drake_-_Passionfruit_(getmp3.pro).mp3"
+Jun 23 21:45 : exception: Not playing
+Jun 23 21:45 : exception: Not playing
+Jun 23 21:47 : player: played "Drake_-_Passionfruit_(getmp3.pro).mp3"
+Jun 23 21:49 : exception: Failed to open /home/thefallnn/.config/mpd/playlists: No such file or directory
+Jun 23 21:49 : player: played "Drake_-_Passionfruit_(getmp3.pro).mp3"
+Jun 23 21:54 : player: played "Drake_-_Passionfruit_(getmp3.pro).mp3"
+Jun 23 22:01 : player: played "Drake_-_Passionfruit_(getmp3.pro).mp3"
+Jun 23 22:08 : player: played "Drake_-_Passionfruit_(getmp3.pro).mp3"
+Jun 23 22:15 : player: played "Drake_-_Passionfruit_(getmp3.pro).mp3"
+Jun 23 22:39 : exception: Failed to open /home/thefallnn/.config/mpd/playlists: No such file or directory
+Jun 23 22:58 : player: played "Drake_-_Passionfruit_(getmp3.pro).mp3"
+Jun 23 23:05 : player: played "Drake_-_Passionfruit_(getmp3.pro).mp3"
+Jun 23 23:10 : player: played "Drake_-_Passionfruit_(getmp3.pro).mp3"
+Jun 24 00:31 : player: played "Drake_-_Passionfruit_(getmp3.pro).mp3"
