@@ -25,3 +25,8 @@
 - **feather :** [here](https://www.cufonfonts.com/font/feather-2)
 
 
+> Sample Screenshots
+
+![](https://raw.githubusercontent.com/thefallnn/dotfiles/bspwm/samples/2.png)
+![](https://raw.githubusercontent.com/thefallnn/dotfiles/bspwm/samples/3.png)
+![](https://raw.githubusercontent.com/thefallnn/dotfiles/bspwm/samples/1.png)
