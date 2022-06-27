@@ -1,4 +1,9 @@
 ;; Variables
+(include "./src/yuck/_variables.yuck")
+(include "./src/yuck/bar/_widgets.yuck")
+(include "./src/yuck/dashboard/_widgets.yuck")
+(include "./src/yuck/dashboard/_windows.yuck")
+
 (defpoll clock_time :interval "5m" "date +\%I")
 (defpoll clock_minute :interval "5s" "date +\%M")
 (defpoll clock_date :interval "10h" "date '+%d/%m'")
@@ -109,7 +114,7 @@
   (eventbox :onhover "${eww} update vol_reveal=true"
 			  :onhoverlost "${eww} update vol_reveal=false"
   (box :class "module-2" :space-evenly "false" :orientation "h" :spacing "3" 
-	(button   :onclick "scripts/pop audio"   :class "volume_icon" "")
+	(button   :onclick "scripts/pop audio"   :class "volume_icon" "")
 	(revealer :transition "slideleft"
 			  :reveal vol_reveal
 			  :duration "350ms"
@@ -124,7 +129,7 @@
 (defwidget bright []
   (eventbox :onhover "${eww} update br_reveal=true" :onhoverlost "${eww} update br_reveal=false"
   (box :class "module-2" :space-evenly "false" :orientation "h" :spacing "3" 
-    (label :text "" :class "bright_icon" :tooltip "brightness")
+    (label :text "" :class "bright_icon" :tooltip "brightness")
 	(revealer :transition "slideleft"
 			  :reveal br_reveal
 			  :duration "350ms"
@@ -167,7 +172,8 @@
 (bat)
 (mem)
 (sep)
-(clock_module)))
+(clock_module)
+(action-center)))
 
 
 (defwidget right []
@@ -347,4 +353,3 @@
 		(defwindow music_win :stacking "fg" :focusable "false" :screen 1
 			    :geometry (geometry :x "0" :y "7%" :width 428 :height 104 :anchor "top center")
 			     				(music_pop))
-

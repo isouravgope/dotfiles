@@ -20,7 +20,7 @@ run_eww() {
 ## Launch or close widgets accordingly
 if [[ ! -f "$FILE" ]]; then
 	touch "$FILE"
-	run_eww && bspc config -m LVDS-1 top_padding 49
+	run_eww
 else
 	${EWW} close-all && killall eww
 	rm "$FILE"

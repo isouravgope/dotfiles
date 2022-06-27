@@ -1,0 +1,8 @@
+#!/bin/bash
+
+rofi -no-lazy-grab \
+-disable-history \
+-modi "drun" -show drun \
+-location 1 \
+-font "Comic Mono 10" \
+-theme ~/.local/share/rofi/themes/nord.rasi \

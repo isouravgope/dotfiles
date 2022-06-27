@@ -153,7 +153,7 @@ font:
     #style: Bold Italic
 
   # Point size
-  size: 10.0
+  size: 9.0
 
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
@@ -181,7 +181,7 @@ font:
 
 colors:
   primary:
-    background: '#0F0F17'
+    background: '#2e3440'
     foreground: '#d8dee9'
     dim_foreground: '#a5abb6'
   cursor:
@@ -623,7 +623,7 @@ shell:
 #   - Bracket
 #       Character matching the bracket at the cursor's location.
 #   - SearchNext
-#       Beginning of thhttps://raw.githubusercontent.com/thefallnn/dotfiles/master/.config/alacritty/alacritty.ymle next match.
+#       Beginning of the next match.
 #   - SearchPrevious
 #       Beginning of the previous match.
 #   - SearchStart

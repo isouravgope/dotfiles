@@ -1,10 +1,16 @@
 /** EWW.SCSS
 Created by saimoom **/
+@import "src/scss/variables";
+@import "src/scss/overrides";
+@import "src/scss/bar/index.scss";
+@import "src/scss/dashboard/index.scss";
 *{
-	all: unset;
+	
+        all: unset;
 	font-family: feather;
-	font-family: DaddyTimeMono NF;
-	font-family: JetBrainsMono Nerd Font;
+	font-family: DaddyTimeMono Nerd Font;
+	
+	
 }
 
 /** General **/
@@ -76,9 +82,9 @@ tooltip label {
   border-radius: 10px;
 }
 .volume_icon {
-    font-size: 22;
+    font-size: 30;
     color: #a1bdce;
-  margin: 0px 10px 0px 10px;
+  margin: 0px 5px 0px 5px;
 }
 
 
@@ -105,7 +111,7 @@ tooltip label {
     margin: 10px;
 }
 .bright_icon {
-    font-size: 22;
+    font-size: 26;
     color: #e4c9af;
   margin: 0px 10px 0px 10px;
 }
@@ -143,7 +149,7 @@ scale trough {
 .works {
 font-size: 27px;
 font-weight: normal;
-margin: 5px 0px 0px 20px;
+margin: 8px 15px 5px 20px;
 background-color: #0f0f17;
 }
 
@@ -333,7 +339,7 @@ color: #bfc9db;
 }
 
 .music_btn_prev, .music_btn_play, .music_btn_next {
-	font-family: Iosevka Nerd Font;
+	font-family: DaddyTimeMono Nerd Font;
 }
 .music_btn_prev {
 	color: #bbc5d7;
@@ -445,4 +451,3 @@ color: #bfc9db;
     font-size: 18;
 	margin : 0px 0px 0px 0px;
 }
-

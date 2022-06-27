@@ -1,0 +1,89 @@
+#!/bin/bash
+
+LOCK_FILE="$HOME/.cache/eww-lock.lock"
+
+hide_unhide_windows() {
+    while bspc node any.hidden.window -g hidden=off; do false; done && while bspc node 'any.!hidden.window' -g hidden=on; do :; done
+}
+
+lock() {
+    hsetroot -fill "$HOME/.config/eww/assets/lockscreen.png"
+    # Wait for eww to finish load widget
+    sleep 0.5
+
+    i3lock -n -c 00000000 -t -e --pass-media-keys --pass-power-keys --pass-volume-keys --indicator \
+        --radius 64 --modif-size=9 --modif-pos="w/2:h/2-15" \
+        \
+        --time-str="" \
+        --time-pos="w/2:h/2+35" \
+        --time-color=c5c8c9 \
+        --time-size=14 \
+        --time-font="Sarasa Mono CL Nerd Font" \
+        \
+        --verif-text="" \
+        --verif-color=7ba5dd \
+        --verif-size=10 \
+        --verif-font="Sarasa Mono CL Nerd Font" \
+        \
+        --wrong-text="" \
+        --wrong-color=ee6a70 \
+        --wrong-size=10 \
+        --wrong-font="Sarasa Mono CL Nerd Font" \
+        \
+        --greeter-text="" \
+        --greeter-color=0B0F10 \
+        --greeter-size=60 \
+        --greeter-font="Sarasa Mono CL Nerd Font" \
+        --greeter-pos="w/2-22:h/2+285" \
+        \
+        --ring-color=0B0F10 \
+        --ringver-color=96D6B0 \
+        --ringwrong-color=ee6a70 \
+        --ring-width=5 \
+        \
+        --insidever-color=079A8C02 \
+        --insidewrong-color=079A8C02 \
+        --inside-color=079A8C02 \
+        --ind-pos="w/2-150:h/2-45" \
+        \
+        --noinput-text="" \
+        \
+        --line-uses-inside --keyhl-color=7ba5dd --bshl-color=ee6a70 --separator-color=7ba5dd \
+        --pointer=default
+}
+
+finish() {
+    rm "$LOCK_FILE"
+    hsetroot -fill "$WALLPAPER"
+    $HOME/.local/bin/eww close-all
+    sleep 0.2 && hide_unhide_windows
+    $HOME/.local/bin/tglbar
+}
+
+run() {
+    $HOME/.local/bin/tglbar
+    hide_unhide_windows
+    $HOME/.local/bin/eww open-many lock-screen lock-system-info
+    lock
+}
+
+status=$(playerctl -p %any status || true)
+if [ "$status" == "Playing" ]; then
+	playerctl pause
+fi
+
+if [[ ! -f "$LOCK_FILE" ]]; then
+    if pgrep -x rofi; then
+        killall rofi
+    fi
+
+    touch "$LOCK_FILE"
+    run
+fi
+
+finish
+
+status2=$(playerctl -p %any status || true)
+if [ "$status2" == "Paused" ]; then
+    playerctl play
+fi
