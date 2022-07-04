@@ -406,9 +406,9 @@ exec_always feh --bg-fill $HOME/Pictures/10.png
 exec_always --no-startup-id i3-auto-layout
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh dark
 exec_always --no-startup-id i3-auto-layout
-exec_always --no-startup-id devilspie
 exec_always --no-startup-id dunst -config $HOME/.config/dunst/base16-nord.dunstrc
 #note: my custom dunst configuration can be found here https://pastebin.com/P4i1N8ub curl it to $HOME/.config/dunst/base16-nord.dunstrc
+exec_always --no-startup-id /usr/lib/kdeconnectd
 
 bindsym Mod4+Mod1+Shift+minus exec \
   i3-msg "gaps outer current minus 5" && \

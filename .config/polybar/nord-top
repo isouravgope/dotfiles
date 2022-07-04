@@ -47,6 +47,14 @@ label-urgent-padding = 2
 label-separator = |
 label-separator-foreground = ${colors.buffer}
 
+
+
+[module/kdeconnect]  
+type = custom/script  
+exec = "/home/theglitchh/.config/polybar/scripts/polybar-kdeconnect.sh -d"  
+tail = true
+
+
 [module/bspwm]
 type = internal/bspwm
 
