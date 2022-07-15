@@ -51,7 +51,7 @@ label-separator-foreground = ${colors.buffer}
 
 [module/kdeconnect]  
 type = custom/script  
-exec = "/home/theglitchh/.config/polybar/scripts/polybar-kdeconnect.sh -d"  
+exec = "/home/sourav2k/.config/polybar/scripts/polybar-kdeconnect.sh -d"  
 tail = true
 
 
@@ -119,7 +119,7 @@ format-padding = 4
 
 label-maxlen = 30
 label-empty = Thefallnn @ Manjaro Linux
-label-empty-foreground = #2e3440
+label-empty-foreground = #282828
 
 [module/date]
 type = internal/date
@@ -350,7 +350,7 @@ click-right = ~/.config/polybar/scripts/clipmenu.sh toggle
 type = custom/text
 
 content = 
-content-background = ${colors.nord9}
+content-background = ${colors.success}
 content-foreground = ${colors.background}
 content-padding = 3
 

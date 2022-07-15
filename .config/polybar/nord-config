@@ -45,7 +45,7 @@ wm-restack = i3
 # Top modules
 top-left = rofi-run i3
 top-center = spotify
-top-right = kdeconnect keyboard clipmenu-widget onedrive-widget clash-widget notify backlight alsa network-short battery date
+top-right = kdeconnect keyboard backlight alsa network-short battery date
 
 # Bottom modules
 bottom-left = powermenu info-hackspeed weather

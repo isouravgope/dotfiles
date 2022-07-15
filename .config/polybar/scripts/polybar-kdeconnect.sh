@@ -6,21 +6,21 @@ YOFFSET=0
 XOFFSET=0
 WIDTH=12
 WIDTH_WIDE=24
-THEME=nord
+THEME=$HOME/.local/share/rofi/themes/squared-everforest.rasi
 
 # Color Settings of Icon shown in Polybar
-COLOR_DISCONNECTED='#bf616a'       # Device Disconnected
-COLOR_NEWDEVICE='#b48ead'          # New Device
-COLOR_BATTERY_90='#a3be8c'         # Battery >= 90
-COLOR_BATTERY_80='#8fbcbb'         # Battery >= 80
-COLOR_BATTERY_70='#88c0d0'         # Battery >= 70
-COLOR_BATTERY_60='#ebcb8b'         # Battery >= 60
-COLOR_BATTERY_50='#d08770'         # Battery >= 50
-COLOR_BATTERY_LOW='#bf616a'        # Battery <  50
+COLOR_DISCONNECTED='#000'       # Device Disconnected
+COLOR_NEWDEVICE='#ff0'          # New Device
+COLOR_BATTERY_90='#fabd2f'         # Battery >= 90
+COLOR_BATTERY_80='#fabd2f'         # Battery >= 80
+COLOR_BATTERY_70='#fabd2f'         # Battery >= 70
+COLOR_BATTERY_60='#fabd2f'         # Battery >= 60
+COLOR_BATTERY_50='#fb493f'         # Battery >= 50
+COLOR_BATTERY_LOW='#fb493f'        # Battery <  50
 
 # Icons shown in Polybar
-ICON_SMARTPHONE=''
-ICON_TABLET=''
+ICON_SMARTPHONE=''
+ICON_TABLET=''
 SEPERATOR='|'
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
