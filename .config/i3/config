@@ -453,8 +453,8 @@ set $base0F #fcc09e
     # class                 border  backgr. text    indicator
     client.focused          #b8bb26 #b8bb26 #ffffff #b8bb26
     client.unfocused        #32302f #282828 #888888 #32302f
-    client.focused_inactive #2e3440 #2e3440 #888888 #2e3440
-    client.placeholder      #2e3440 #2e3440 #888888 #2e3440
+    client.focused_inactive #282828 #282828 #888888 #282828
+    client.placeholder      #282828 # #888888 #82828
     client.urgent           #900000 #900000 #ffffff #900000
 
     client.background       #242424
