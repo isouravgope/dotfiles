@@ -41,9 +41,9 @@ frame_color = "#fabd2f"
 [urgency_normal]
     background = "#282828"
     foreground = "#ebdbb2"
-    timeout = 20
+    timeout = 10
 
 [urgency_critical]
     background = "#282828"
     foreground = "#ebdbb2"
-    timeout = 0
+    timeout = 20

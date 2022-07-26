@@ -113,8 +113,8 @@ label-urgent-padding = 2
 
 [module/title]
 type = internal/xwindow
-format-foreground = ${colors.nord7}
-format-underline = ${colors.nord7}
+format-foreground = #e78a4e
+format-underline = #e78a4e
 format-padding = 4
 
 label-maxlen = 30

@@ -114,7 +114,7 @@ font:
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
     family: Source Code Pro
-    size: 13.0
+    size: 14.0
 
     # The `style` can be specified to pick a specific face.
     #style: Regular

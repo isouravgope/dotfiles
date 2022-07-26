@@ -1,7 +1,7 @@
 #!/bin/sh
 # shellcheck disable=SC2016,SC2059
 
-KEYBOARD_ID="12"
+KEYBOARD_ID="13"
 
 # cpm: characters per minute
 # wpm: words per minute (1 word = 5 characters)
