@@ -44,7 +44,7 @@ wm-restack = i3
 
 # Top modules
 top-left = rofi-run i3
-top-center = spotify mpd
+top-center = spotify 
 top-right = kdeconnect keyboard backlight alsa network-short battery date
 
 # Bottom modules
