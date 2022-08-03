@@ -48,6 +48,23 @@ label-separator = |
 label-separator-foreground = ${colors.buffer}
 
 
+[module/pipewire]
+type = custom/ipc
+
+label = "%output%"
+label-font = 1
+
+hook-0 = ~/.config/polybar/scripts/sound.sh
+hook-1 = ~/.config/polybar/scripts/sound.sh up
+hook-2 = ~/.config/polybar/scripts/sound.sh down
+hook-3 = ~/.config/polybar/scripts/sound.sh mute
+hook-4 = sleep 1 && ~/.config/polybar/scripts/sound.sh
+initial = 5
+
+scroll-up = exec polybar-msg action "#pipewire.hook.1"
+scroll-down = exec polybar-msg action "#pipewire.hook.2"
+click-left = exec polybar-msg action "#pipewire.hook.3"
+click-right = exec pavucontrol &
 
 [module/kdeconnect]  
 type = custom/script  
@@ -118,7 +135,7 @@ format-underline = #e78a4e
 format-padding = 4
 
 label-maxlen = 30
-label-empty = Thefallnn @ Manjaro Linux
+label-empty = Sourav2k @ Arch Linux (Pavilion)
 label-empty-foreground = #282828
 
 [module/date]
@@ -134,7 +151,7 @@ date = %Y-%m-%d %a
 format = <label>
 label =  %date%
 label-margin = 1
-label-underline = ${colors.nord8}
+label-underline = #d79921
 
 [module/battery]
 type = internal/battery
@@ -194,7 +211,7 @@ master-mixer = ${config.master-mixer}
 
 ; Format 
 format-volume = <ramp-volume> <label-volume>
-format-volume-underline = ${colors.function}
+format-volume-underline = #d3869b
 
 label-muted =  muted
 label-muted-foreground = ${colors.urgent}
@@ -218,12 +235,12 @@ enable-scroll = true
 
 ; Format
 format = <ramp> <label>
-format-underline = ${colors.nord9}
+format-underline = #c87f4e
 
 ramp-0 = 
 
 label = %{A1:$HOME/.config/polybar/scripts/toggle-redshift.sh:}%percentage%%%{A}
-ramp-foreground = ${colors.nord9}
+ramp-foreground = #fe8019
 
 [module/mpd]
 type = internal/mpd
@@ -236,7 +253,7 @@ format-online = <toggle> <icon-prev> <label-song> <icon-next> <icon-stop> | <bar
 format-paused = <toggle> <icon-prev> <label-song> <icon-next> <icon-stop>
 format-stopped =  <toggle>
 
-label-song-underline = ${colors.nord8}
+label-song-underline = ${colors.urgent}
 label-song = %artist:0:10:...% - %title:0:10:...%
 
 icon-play = 
@@ -297,8 +314,8 @@ ramp-signal-1 = 
 ramp-signal-2 = 
 ramp-signal-3 = 
 
-ramp-signal-0-foreground = ${colors.urgent}
-ramp-signal-0-underline = ${colors.urgent}
+ramp-signal-0-foreground = #8ec07c
+ramp-signal-0-underline = #689d6a
 
 ramp-signal-1-foreground = ${colors.notify}
 ramp-signal-1-underline = ${colors.notify}
@@ -320,7 +337,7 @@ click-left = ~/.config/polybar/scripts/clash.sh toggle
 [module/spotify]
 type = custom/script
 interval = 1
-format-prefix = " "
+format-prefix = " "
 format = <label>
 exec = python3 $HOME/.config/polybar/scripts/spotify_status.py -f '{artist}: {song}'
 format-underline = #fabd2f

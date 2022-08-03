@@ -5,11 +5,20 @@ background = #282828
 buffer = #3c3836
 foreground = #ebdbb2
 nord6 = #fbf1c7
-nord7 = #8ec07c
-nord8 = #83a598
-nord9 = #458588
-urgent = #fb4934
-warning = #fe8019
-notify = #fabd2f
-success = #b8bb26
-function = #d3869b
+;yellow lite
+nord7 = #8ec07c 
+;green light
+nord8 = #83a598 
+;blue light
+nord9 = #458588 
+;solaris green
+urgent = #fb4934 
+;red
+warning = #fe8019 
+;orange
+notify = #fabd2f 
+;yellow
+success = #b8bb26 
+; green light
+function = #d3869b 
+; purple
