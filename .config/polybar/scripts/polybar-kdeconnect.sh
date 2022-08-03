@@ -11,9 +11,9 @@ THEME=$HOME/.local/share/rofi/themes/squared-everforest.rasi
 # Color Settings of Icon shown in Polybar
 COLOR_DISCONNECTED='#000'       # Device Disconnected
 COLOR_NEWDEVICE='#ff0'          # New Device
-COLOR_BATTERY_90='#fabd2f'         # Battery >= 90
-COLOR_BATTERY_80='#fabd2f'         # Battery >= 80
-COLOR_BATTERY_70='#fabd2f'         # Battery >= 70
+COLOR_BATTERY_90='#b8bb26'         # Battery >= 90
+COLOR_BATTERY_80='#b8bb26'        # Battery >= 80
+COLOR_BATTERY_70='#b8bb26'         # Battery >= 70
 COLOR_BATTERY_60='#fabd2f'         # Battery >= 60
 COLOR_BATTERY_50='#fb493f'         # Battery >= 50
 COLOR_BATTERY_LOW='#fb493f'        # Battery <  50
