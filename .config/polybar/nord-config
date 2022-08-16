@@ -45,7 +45,7 @@ wm-restack = i3
 # Top modules
 top-left = rofi-run i3
 top-center = spotify
-top-right = kdeconnect keyboard clipmenu-widget onedrive-widget clash-widget notify backlight alsa network-short battery date
+top-right = keyboard backlight  alsa battery network-short date
 
 # Bottom modules
 bottom-left = powermenu info-hackspeed weather
@@ -55,7 +55,7 @@ systray-top = none
 systray-bottom = right
 
 # global style
-line-size = 4
+line-size = 3.5
 
 # Modules configure option
 # the default value in this section should work in most cases,
