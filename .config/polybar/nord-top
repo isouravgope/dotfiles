@@ -117,9 +117,9 @@ format-foreground = ${colors.nord7}
 format-underline = ${colors.nord7}
 format-padding = 4
 
-label-maxlen = 30
-label-empty = Thefallnn @ Manjaro Linux
-label-empty-foreground = #2e3440
+label-maxlen = 50
+label-empty = Sourav Gope at the rate of Arch Linux
+label-empty-foreground = #002e3440
 
 [module/date]
 type = internal/date
@@ -203,7 +203,7 @@ label-muted-underline = ${colors.urgent}
 ramp-volume-0 = 
 ramp-volume-0-foreground = ${colors.success}
 ramp-volume-1 = 
-ramp-volume-1-foreground = ${colors.notify}
+ramp-volume-1-foreground = ${colors.success}
 ramp-volume-2 = 
 ramp-volume-2-foreground = ${colors.urgent}
 
@@ -297,8 +297,8 @@ ramp-signal-1 = 
 ramp-signal-2 = 
 ramp-signal-3 = 
 
-ramp-signal-0-foreground = ${colors.urgent}
-ramp-signal-0-underline = ${colors.urgent}
+ramp-signal-0-foreground = #88c0d0
+ramp-signal-0-underline = #88c0d0
 
 ramp-signal-1-foreground = ${colors.notify}
 ramp-signal-1-underline = ${colors.notify}
