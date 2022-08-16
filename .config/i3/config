@@ -84,7 +84,7 @@ set $mode_system System (k) lock, (l) logout, (u) suspend, (h) hibernate, (r) re
 mode "$mode_system" {
      
     bindsym k exec --no-startup-id ~/.config/i3/scripts/i3exit.sh lock, mode "default"
-#    bindsym k exec i3lock -i ~/Pictures/walls/17.png
+#    bindsym k exec i3lock -i ~/Pictures/walls/10.png
     bindsym l exec --no-startup-id ~/.config/i3/scripts/i3exit.sh logout, mode "default"
     bindsym u exec --no-startup-id ~/.config/i3/scripts/i3exit.sh suspend, mode "default"
     bindsym h exec --no-startup-id ~/.config/i3/scripts/i3exit.sh hibernate, mode "default"
@@ -338,7 +338,7 @@ popup_during_fullscreen smart
 #################                          i3 gaps next                                             #################
 #####################################################################################################################
 
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 1.5
 gaps inner 10
 gaps outer 10
 #smart_gaps on
@@ -402,7 +402,7 @@ mode "$mode_gaps_outer" {
 exec_always --no-startup-id picom --config ~/.config/picom/picom.sample.conf
 exec_always --no-startup-id nitrogen --restore
 exec_always --no-startup-id ~/.config/i3/scripts/mouse.sh
-exec_always feh --bg-fill $HOME/Pictures/10.png
+exec_always feh --bg-fill $HOME/Pictures/walls/10.png
 exec_always --no-startup-id i3-auto-layout
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh dark
 exec_always --no-startup-id i3-auto-layout
@@ -451,7 +451,7 @@ set $base0F #fcc09e
 
     # Window color settings
     # class                 border  backgr. text    indicator
-    client.focused          #81a1c1 #81a1c1 #ffffff #81a1c1
+    client.focused          #88c0d0 #88c0d0 #ffffff #88c0d0
     client.unfocused        #2e3440 #2e3440 #888888 #2e3440
     client.focused_inactive #2e3440 #2e3440 #888888 #2e3440
     client.placeholder      #2e3440 #2e3440 #888888 #2e3440
