@@ -402,7 +402,7 @@ mode "$mode_gaps_outer" {
 exec_always --no-startup-id picom --config ~/.config/picom/picom.sample.conf
 exec_always --no-startup-id nitrogen --restore
 exec_always --no-startup-id ~/.config/i3/scripts/mouse.sh
-exec_always feh --bg-fill $HOME/Pictures/walls/gruv.jpg
+exec_always feh --bg-fill $HOME/Pictures/walls/28.jpg
 exec_always --no-startup-id i3-auto-layout
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh dark
 exec_always --no-startup-id i3-auto-layout
