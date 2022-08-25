@@ -5,11 +5,11 @@ type = custom/menu
 expand-right = true
 
 label-open = 
-label-open-foreground = ${colors.background}
+label-open-foreground = #282828
 label-open-background = ${colors.success}
 label-open-padding = 3
 label-close = 
-label-close-foreground = ${colors.background}
+label-close-foreground = #282828
 label-close-background = ${colors.nord9}
 label-close-padding = 4
 

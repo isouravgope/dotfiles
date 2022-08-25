@@ -220,7 +220,7 @@ label-muted-underline = ${colors.urgent}
 ramp-volume-0 = 
 ramp-volume-0-foreground = ${colors.success}
 ramp-volume-1 = 
-ramp-volume-1-foreground = ${colors.notify}
+ramp-volume-1-foreground = ${colors.success}
 ramp-volume-2 = 
 ramp-volume-2-foreground = ${colors.urgent}
 
@@ -368,7 +368,7 @@ type = custom/text
 
 content = 
 content-background = ${colors.success}
-content-foreground = ${colors.background}
+content-foreground = #282828
 content-padding = 3
 
 click-left = ~/.config/polybar/scripts/rofi_run
