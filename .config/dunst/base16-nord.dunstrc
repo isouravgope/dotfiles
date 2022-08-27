@@ -23,7 +23,6 @@
     startup_notification = false
     # https://github.com/knopwob/dunst/issues/26#issuecomment-36159395
     #icon_position = left
-    #icon_folders = /usr/share/icons/breeze-dark/actions/16
 frame_width = 1
 frame_color = "#fabd2f"
 
