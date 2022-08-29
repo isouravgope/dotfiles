@@ -136,7 +136,7 @@ format-padding = 4
 
 label-maxlen = 30
 label-empty = Sourav2k @ Arch Linux (Pavilion)
-label-empty-foreground = #282828
+label-empty-foreground = #00282828
 
 [module/date]
 type = internal/date
