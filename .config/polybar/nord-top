@@ -309,13 +309,13 @@ format-disconnected = %{A1:networkmanager_dmenu:}<label-disconnected>%{A}
 label-disconnected = 
 label-disconnected-foreground = ${colors.urgent}
 
-ramp-signal-0 = 
+ramp-signal-0 = 
 ramp-signal-1 = 
 ramp-signal-2 = 
 ramp-signal-3 = 
 
-ramp-signal-0-foreground = #8ec07c
-ramp-signal-0-underline = #689d6a
+ramp-signal-0-foreground = #83a598
+ramp-signal-0-underline = #83a598
 
 ramp-signal-1-foreground = ${colors.notify}
 ramp-signal-1-underline = ${colors.notify}
@@ -340,7 +340,7 @@ interval = 1
 format-prefix = " "
 format = <label>
 exec = python3 $HOME/.config/polybar/scripts/spotify_status.py -f '{artist}: {song}'
-format-underline = #fabd2f
+format-underline = #b8bb26
 ;control players (optional)
 click-left = playerctl --player=spotify play-pause 
 click-right = playerctl --player=spotify next 
