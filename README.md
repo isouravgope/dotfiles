@@ -66,14 +66,14 @@ config config --local status.showUntrackedFiles no
 </details>
 
 # Sample Screenshots 👑
-![](https://raw.githubusercontent.com/sourav2k/sampleshots/main/1.png)
+![](https://raw.githubusercontent.com/sourav2k/sampleshots/main/03.png)
 
 
-![](https://raw.githubusercontent.com/sourav2k/sampleshots/main/2.png)
+![](https://raw.githubusercontent.com/sourav2k/sampleshots/main/04.png)
 
 
-![](https://raw.githubusercontent.com/sourav2k/sampleshots/main/3.png)
+![](https://raw.githubusercontent.com/sourav2k/sampleshots/main/02.png)
 
 
-![](https://raw.githubusercontent.com/sourav2k/sampleshots/main/4.png)
+![](https://raw.githubusercontent.com/sourav2k/sampleshots/main/01.png)
 [Contact](https://wa.me/+919366855940)
