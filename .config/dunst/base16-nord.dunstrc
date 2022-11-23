@@ -27,7 +27,7 @@
     #icon_position = left
     frame_width = 1
     icon_folders = /usr/share/icons/breeze/apps/48/:/usr/share/icons/breeze/actions/48/:/usr/share/icons/breeze/places/48/:/usr/share/icons/breeze/status/48/
-    frame_color = "#fabd2f"
+    frame_color = "#fbf1c7"
     
 [shortcuts]
     close = ctrl+space
@@ -36,16 +36,16 @@
     context = ctrl+shift+period
 
 [urgency_low]
-    background = "#282828"
+    background = "#1D282828"
     foreground = "#ebdbb2"
     timeout = 5
 
 [urgency_normal]
-    background = "#282828"
+    background = "#1D282828"
     foreground = "#ebdbb2"
     timeout = 10
 
 [urgency_critical]
-    background = "#282828"
+    background = "#1D282828"
     foreground = "#ebdbb2"
     timeout = 20
