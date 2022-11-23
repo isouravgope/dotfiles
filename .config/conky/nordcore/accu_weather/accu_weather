@@ -1,0 +1,77 @@
+# Create own window instead of using desktop (required in nautilus)
+own_window yes
+own_window_type override
+own_window_transparent yes
+own_window_hints undecorated,below,skip_taskbar,skip_pager
+
+# Use double buffering (reduces flicker, may not work for everyone)
+double_buffer yes
+
+# fiddle with window
+use_spacer yes
+use_xft yes
+
+# Update interval in seconds
+update_interval 3
+
+# Minimum size of text area
+minimum_size 200 700
+maximum_width 350
+
+override_utf8_locale yes
+
+# Draw shades?
+draw_shades yes
+
+# Text stuff
+draw_outline yes # amplifies text if yes
+draw_borders no
+#font freesans -12
+xftfont Arial:size=9
+uppercase no # set to yes if you want all text to be in uppercase
+
+# Stippled borders?
+stippled_borders 3
+
+# border margins
+border_margin 9
+
+# border width
+border_width 10
+
+# Default colors and also border colors, grey90 == #e5e5e5
+default_color cbcbcb
+
+own_window_colour brown
+own_window_transparent yes
+
+# Text alignment, other possible values are commented
+#alignment top_left
+alignment top_right
+#alignment bottom_left
+#alignment bottom_right
+
+# Gap between borders of screen and text
+gap_x 10
+gap_y 10
+
+imlib_cache_size 0
+# stuff after 'TEXT' will be formatted on screen
+
+TEXT
+${hr 2}
+$alignc ${color 48bcff}PRISTINA WEATHER $color${execi 600 bash /home/altin/.fluxbox/conky/accu/Accuweather_RSS/acc_rss}
+${hr 2}
+${font conkyweather:size=30}${execpi 600  sed -n '2p' /home/altin/.fluxbox/conky/accu/Accuweather_RSS/weather}${font}${goto 75}${voffset -25}${execpi 600 sed -n '1p' /home/altin/.fluxbox/conky/accu/Accuweather_RSS/weather|cut -c1-20}
+${goto 75}${execpi 600 sed -n '1p' /home/altin/.fluxbox/conky/accu/Accuweather_RSS/weather|cut -c21-40}
+${goto 75}${execpi 600 sed -n '1p' /home/altin/.fluxbox/conky/accu/Accuweather_RSS/weather|cut -c41-60}
+
+${execi 600  sed -n '3p' /home/altin/.fluxbox/conky/accu/Accuweather_RSS/weather}
+${font conkyweather:size=30}${execpi 600  sed -n '5p' /home/altin/.fluxbox/conky/accu/Accuweather_RSS/weather}${font}${goto 75}${voffset -25}${execpi 600 sed -n '4p' /home/altin/.fluxbox/conky/accu/Accuweather_RSS/weather|cut -c1-20}
+${goto 75}${execpi 600 sed -n '4p' /home/altin/.fluxbox/conky/accu/Accuweather_RSS/weather|cut -c21-40}
+${goto 75}${execpi 600 sed -n '4p' /home/altin/.fluxbox/conky/accu/Accuweather_RSS/weather|cut -c41-60}
+
+${execi 600  sed -n '6p' /home/altin/.fluxbox/conky/accu/Accuweather_RSS/weather}
+${font conkyweather:size=30}${execpi 600  sed -n '8p' /home/altin/.fluxbox/conky/accu/Accuweather_RSS/weather}${font}${goto 75}${voffset -25}${execpi 600 sed -n '4p' /home/altin/.fluxbox/conky/accu/Accuweather_RSS/weather|cut -c1-20}
+${goto 75}${execpi 600 sed -n '7p' /home/altin/.fluxbox/conky/accu/Accuweather_RSS/weather|cut -c21-40}
+${goto 75}${execpi 600 sed -n '7p' /home/altin/.fluxbox/conky/accu/Accuweather_RSS/weather|cut -c41-60}

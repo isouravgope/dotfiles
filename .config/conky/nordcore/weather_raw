@@ -1,0 +1,56 @@
+<?xml version = "1.0"?>
+<rss version="2.0">
+<channel>
+<title>Pristina, XK - AccuWeather.com Forecast</title>
+<link>http://www.accuweather.com/en/xk/pristina/298740/%pagename%/298740</link>
+
+		<description>AccuWeather.com Forecast &amp; Current Conditions</description>
+		<ttl>60</ttl>
+		<copyright>Copyright 2013, AccuWeather, Inc., All rights reserved. For personal use only.</copyright>
+		<pubDate>Fri, 05 Jul 2013 09:12:00 GMT</pubDate> 
+		<language>en-us</language> 
+		<image>
+			<title>Pristina, XK - AccuWeather.com Forecast</title>
+<link>/en/xk/pristina/298740/weather-forecast/298740</link>
+
+			<description>AccuWeather.com The Best Weather on the Web!</description>
+			<url>http://vortex.accuweather.com/adc2004/pub/images/logos/adc_logo_187.gif</url>
+			<width>144</width>
+			<height>19</height>
+		</image>		
+		<item>
+			<title>Currently: Partly Sunny: 25C</title> 
+			<link>http://www.accuweather.com/en/xk/pristina/298740/weather-forecast/298740</link>
+			<guid isPermaLink="false">http://www.accuweather.com/en/xk/pristina/298740/weather-forecast/298740</guid>
+			
+				<description>Currently in Pristina, XK: 25 &#176;C and Partly Sunny
+				&lt;img src="http://vortex.accuweather.com/phoenix2/images/common/icons/03_31x31.gif"&gt;
+				</description> 				
+			
+			<pubDate>Fri, 05 Jul 2013 09:12:00 GMT</pubDate>
+		</item>
+		
+			<item>
+				<title>7/5/2013 Forecast</title>
+				<link>http://www.accuweather.com/en/xk/pristina/298740/daily-weather-forecast/298740?day=1</link> 
+				<guid isPermaLink="false">http://www.accuweather.com/en/xk/pristina/298740/daily-weather-forecast/298740?day=1</guid>
+				<description>High: 27 C Low: 13 C A couple of thunderstorms &lt;img src="http://vortex.accuweather.com/phoenix2/images/common/icons/17_31x31.gif" &gt;</description>
+				<pubDate>Fri, 05 Jul 2013 09:12:00 GMT</pubDate>
+			</item>
+		
+			<item>
+				<title>7/6/2013 Forecast</title>
+				<link>http://www.accuweather.com/en/xk/pristina/298740/daily-weather-forecast/298740?day=2</link> 
+				<guid isPermaLink="false">http://www.accuweather.com/en/xk/pristina/298740/daily-weather-forecast/298740?day=2</guid>
+				<description>High: 24 C Low: 14 C Rain and a thunderstorm &lt;img src="http://vortex.accuweather.com/phoenix2/images/common/icons/18_31x31.gif" &gt;</description>
+				<pubDate>Fri, 05 Jul 2013 09:12:00 GMT</pubDate>
+			</item>
+		<item>
+<title>The AccuWeather.com RSS Center</title>
+<description>To discover additional weather feeds, visit the AccuWeather.com RSS Center at http://www.accuweather.com/en/downloads</description>
+<link>http://www.accuweather.com/en/downloads</link>
+<guid isPermaLink="false">http://www.accuweather.com/en/downloads</guid>
+<pubDate>Fri, 05 Jul 2013 09:12:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

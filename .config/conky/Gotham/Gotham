@@ -1,0 +1,49 @@
+#Conky By Jesse Avalos See me on Eye candy Linux (Google +) for more conkys.
+background yes
+update_interval 1
+
+cpu_avg_samples 2
+net_avg_samples 2
+temperature_unit celsius
+
+double_buffer yes
+no_buffers yes
+text_buffer_size 2048
+alignment top_middle
+gap_x -50
+gap_y 85
+minimum_size 550 550
+maximum_width 550
+own_window yes
+own_window_type normal
+own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_argb_visual yes
+own_window_argb_value 0
+
+border_inner_margin 0
+border_outer_margin 0
+
+
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+default_shade_color 112422
+
+override_utf8_locale yes
+use_xft yes
+xftfont Feena Casual:size=10
+xftalpha 1
+uppercase yes
+
+default_color D6D5D4
+#E87E3C
+own_window_colour 000000
+TEXT
+
+
+${font Anurati:size=75}${color D6D5D4}${time %A}#${color yellow}
+
+
+

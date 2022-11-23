@@ -1,0 +1,146 @@
+conky.config = {
+-- Conky settings #
+    background = false,
+    update_interval = 1,
+
+    cpu_avg_samples = 2,
+    net_avg_samples = 2,
+
+    override_utf8_locale = true,
+
+    double_buffer = true,
+    no_buffers = true,
+
+    text_buffer_size = 2048,
+--imlib_cache_size 0
+
+
+-- Window specifications #
+    own_window = true,
+    own_window_type = 'override',
+    own_window_transparent = true,
+    own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+
+    border_inner_margin = 0,
+    border_outer_margin = 5,
+
+    minimum_width = 280, minimum_height = 1080,
+    maximum_width = 520, minimum_height = 1080,
+
+    alignment = 'middle_right',
+    gap_x = 5,
+    gap_y = -348,
+
+-- Graphics settings #
+    draw_shades = false,
+    draw_outline = false,
+    draw_borders = false,
+    draw_graph_borders = true,
+
+-- Text settings #
+    use_xft = true,
+    font = 'Roboto:style=Normal:size=10',
+    xftalpha = 0.5,
+
+    uppercase = false,
+
+--  temperature_unit = 'fahrenheit',
+    temperature_unit = 'celsius',
+
+    -- default_color = 'fbf1c7',
+    -- color0 = 'fbf1c7',
+    -- color1 = 'fbf1c7',
+    default_color = 'fbf1c7',
+    color0 = 'fbf1c7',
+    color1 = 'fbf1c7',
+
+
+-- network templates
+    if_up_strictness = 'address',
+
+    template0 = [[${color1}\1: $color$alignr${addr \1}
+${color1}Current: $color${alignr}${execi 10 test -e /sys/class/net/\1 && /sbin/iwconfig \1 | awk '/Bit Rate=/ { sub(/Rate=/,"", $2); print $2 }'} Mbits/sec]],
+
+    template1 = [[
+${color1}\1: $color$alignr${addr \1}\n]],
+
+    template2 = [[${color1}Down: $color${downspeed \1} k/s ${alignr}${color1}Up:$color ${upspeed \1} k/s
+${downspeedgraph \1 30,120 000000 88c0d0} ${alignr}${upspeedgraph \1 30,120 000000 88c0d0}$color
+${color1}Total:$color ${totaldown \1} ${alignr}${color1}\1          ${alignr}${color1}Total:$color ${totalup \1}]],
+
+   template4 = 'ens33',
+   template5 = 'eth1',
+   template6 = 'wlan0',
+   template7 = 'wlan1',
+
+
+-- wheather templates
+
+   template8 = '~/.conky/nordcore/weather',
+   template9 = '~/.conky/nordcore/weather_raw',
+
+   
+};
+
+-- fluxbox adjustment``
+return_code = os.execute('pidof -q fluxbox')
+if _VERSION == 'Lua 5.1' and math.floor(return_code/256) == 0 or
+   _VERSION ~= 'Lua 5.1' and return_code then
+   conky.config.own_window_transparent = true
+   conky.config.own_window_argb_visual = false
+end
+
+conky.text = [[
+#----------------------------------------------------------------------------------------------------------------------------------------
+$font${color1}User:$color${alignr}$font$USER
+#                            Time and date 
+#----------------------------------------------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------------------------------------------
+#                            Battery Circle 
+#----------------------------------------------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------------------------------------------
+#                       Weather 
+#----------------------------------------------------------------------------------------------------------------------------------------
+
+#                   DISK/RAM/SWAP usage
+#----------------------------------------------------------------------------------------------------------------------------------------
+${color FFFFFF}${goto 7}${voffset 32}${fs_used_perc /}%
+${color1}${goto 7}DISK
+${color FFFFFF}${goto 102}${voffset -36}${memperc}%
+${color1}${goto 102}RAM
+${color FFFFFF}${goto 192}${voffset -37}${swapperc}%
+${color1}${goto 191}SWAP
+
+${color1}Root Directory: ${alignr}$color${fs_used /} / ${fs_size /}(${fs_used_perc}%)
+${color1}${fs_bar 30 /}
+${color1}Home Directory : ${alignr}$color${fs_used /home} / ${fs_size /home}(${fs_used_perc}%)
+${color1}${fs_bar 30 /home}
+#${color1}CPU 1${alignr}$color${cpu cpu1 \1}%
+#${cpugraph cpu1 \1 000000 88c0d0}
+#${color1}CPU 2${alignr}$color${cpu cpu2 \1}%
+#${cpugraph cpu2 \1 000000 88c0d0}
+#----------------------------------------------------------------------------------------------------------------------------------------
+#                      Running processes
+#----------------------------------------------------------------------------------------------------------------------------------------
+${color1}${voffset 5}NAME${goto 122}PID${goto 163}CPU%${goto 210}MEM%$color${voffset 5}
+${top name 1}${goto 115}${top pid 1}${goto 160}${top cpu 1}${goto 205}${top mem 1}
+${top name 2}${goto 115}${top pid 2}${goto 160}${top cpu 2}${goto 205}${top mem 2}
+${top name 3}${goto 115}${top pid 3}${goto 160}${top cpu 3}${goto 205}${top mem 3}
+${top name 4}${goto 115}${top pid 3}${goto 160}${top cpu 4}${goto 205}${top mem 4}
+${top name 5}${goto 115}${top pid 3}${goto 160}${top cpu 5}${goto 205}${top mem 5}
+${top name 6}${goto 115}${top pid 6}${goto 160}${top cpu 6}${goto 205}${top mem 6}
+${top name 7}${goto 115}${top pid 7}${goto 160}${top cpu 7}${goto 205}${top mem 7}
+${top name 8}${goto 115}${top pid 8}${goto 160}${top cpu 8}${goto 205}${top mem 8}
+${top name 9}${goto 115}${top pid 9}${goto 160}${top cpu 9}${goto 205}${top mem 9}
+${top name 10}${goto 115}${top pid 10}${goto 160}${top cpu 10}${goto 205}${top mem 10}
+#----------------------------------------------------------------------------------------------------------------------------------------
+#					     Computer info
+#----------------------------------------------------------------------------------------------------------------------------------------
+${color1}${voffset 2}${hr 1}${voffset 5}
+${color1}Hostname:$color${alignr}${nodename}
+${color1}OS:$color${alignr}${exec cat /etc/issue}${color1}Machine:$color${alignr}${machine}
+${color1}Kernel:$color${alignr}${kernel}
+]];
+
+
+
