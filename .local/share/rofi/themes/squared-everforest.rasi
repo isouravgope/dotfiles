@@ -9,9 +9,9 @@
 
     bg0:     #1D282828;
     bg1:     #1D282828;
-    fg0:     #D3C6AA;
+    fg0:     #fbf1c7;
 
-    accent-color:     #d79921;
+    accent-color:     #fbf1c7;
     urgent-color:     #DBBC7F;
 
     background-color:   transparent;
