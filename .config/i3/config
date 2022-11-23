@@ -34,6 +34,8 @@ exec --no-startup-id xrandr --output eDP-1-1 --mode 1920x1080 --rate 60.00
 exec xrandr --setprovideroutputsource modesetting NVIDIA-0
 exec xrandr --auto
 exec --no-startup-id ~/.config/i3/scripts/conky_start.sh
+exec --no-startup-id ~/.config/i3/scripts/conky_two.sh
+exec --no-startup-id glava --desktop
 
 # switch to workspace
 bindsym $mod+1 workspace 1
