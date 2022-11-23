@@ -55,7 +55,7 @@ systray-top = none
 systray-bottom = right
 
 # global style
-line-size = 4
+line-size = 3.5
 
 # Modules configure option
 # the default value in this section should work in most cases,
@@ -81,7 +81,7 @@ master-mixer = Master
 mpd-host = 127.0.0.1
 mpd-port = 6600
 
-thermal-zone = 3
+thermal-zone = 7
 # Base temperature for where to start the ramp (in degrees celsius)
 base-temperature = 20
 # Threshold temperature to display warning label (in degrees celsius)

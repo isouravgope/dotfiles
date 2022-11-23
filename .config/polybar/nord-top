@@ -30,12 +30,12 @@ ws-icon-default = 
 
 ; color
 label-focused = 
-label-focused-underline = ${colors.nord7}
-label-focused-foreground = ${colors.nord7}
+label-focused-underline = #fbf1c7
+label-focused-foreground = #ebdbb2
 label-focused-padding = 2
 
 label-unfocused = •
-label-unfocused-foreground = ${colors.nord9}
+label-unfocused-foreground = #ebdbb2
 label-unfocused-padding = 2
 
 label-urgent = 
@@ -45,7 +45,7 @@ label-urgent-padding = 2
 
 ; seperator
 label-separator = |
-label-separator-foreground = ${colors.buffer}
+label-separator-foreground = #ebdbb2
 
 
 [module/pipewire]
@@ -130,8 +130,8 @@ label-urgent-padding = 2
 
 [module/title]
 type = internal/xwindow
-format-foreground = #e78a4e
-format-underline = #e78a4e
+format-foreground = #fbf1c7
+format-underline = #fbf1c7
 format-padding = 4
 
 label-maxlen = 30
@@ -151,7 +151,7 @@ date = %Y-%m-%d %a
 format = <label>
 label =  %date%
 label-margin = 1
-label-underline = #d79921
+label-underline = #fbf1c7
 
 [module/battery]
 type = internal/battery
@@ -180,8 +180,8 @@ ramp-capacity-4 = 
 ramp-capacity-foreground = ${colors.notify}
 
 label-full = 
-label-full-foreground = ${colors.success}
-label-full-underline = ${colors.success}
+label-full-foreground = #fbf1c7
+label-full-underline = #fbf1c7
 
 [module/keyboard]
 type = internal/xkeyboard
@@ -194,8 +194,8 @@ bufferlist-1 = scroll lock
 format = <label-indicator>
 
 label-indicator-on-capslock =  CL
-label-indicator-on-capslock-foreground = ${colors.warning}
-label-indicator-on-capslock-underline = ${colors.warning}
+label-indicator-on-capslock-foreground = #fbf1c7
+label-indicator-on-capslock-underline = #fbf1c7
 
 ; Icons
 layout-icon-default = 
@@ -211,22 +211,22 @@ master-mixer = ${config.master-mixer}
 
 ; Format 
 format-volume = <ramp-volume> <label-volume>
-format-volume-underline = #d3869b
+format-volume-underline = #fbf1c7
 
 label-muted =  muted
 label-muted-foreground = ${colors.urgent}
 label-muted-underline = ${colors.urgent}
 
 ramp-volume-0 = 
-ramp-volume-0-foreground = ${colors.success}
+ramp-volume-0-foreground = #fbf1c7
 ramp-volume-1 = 
-ramp-volume-1-foreground = ${colors.success}
+ramp-volume-1-foreground = #fbf1c7
 ramp-volume-2 = 
 ramp-volume-2-foreground = ${colors.urgent}
 
 ramp-headphones-0 = 
 
-ramp-volume-foreground = ${colors.nord7}
+ramp-volume-foreground = #fbf1c7
 
 [module/backlight]
 type = internal/backlight
@@ -235,12 +235,12 @@ enable-scroll = true
 
 ; Format
 format = <ramp> <label>
-format-underline = #c87f4e
+format-underline = #fbf1c7
 
 ramp-0 = 
 
 label = %{A1:$HOME/.config/polybar/scripts/toggle-redshift.sh:}%percentage%%%{A}
-ramp-foreground = #fe8019
+ramp-foreground = #fbf1c7
 
 [module/mpd]
 type = internal/mpd
@@ -253,40 +253,40 @@ format-online = <toggle> <icon-prev> <label-song> <icon-next> <icon-stop> | <bar
 format-paused = <toggle> <icon-prev> <label-song> <icon-next> <icon-stop>
 format-stopped =  <toggle>
 
-label-song-underline = ${colors.urgent}
+label-song-underline = #fbf1c7
 label-song = %artist:0:10:...% - %title:0:10:...%
 
 icon-play = 
-icon-play-foreground = ${colors.success}
+icon-play-foreground = #fbf1c7
 icon-play-margin = 1
 icon-pause = 
-icon-pause-foreground = ${colors.warning}
+icon-pause-foreground = #fbf1c7
 icon-pause-margin = 1
 icon-stop = 
-icon-stop-foreground = ${colors.urgent}
+icon-stop-foreground = #fbf1c7
 icon-stop-margin = 1
 icon-prev = 
-icon-prev-foreground = ${colors.function}
+icon-prev-foreground = #fbf1c7
 icon-prev-margin = 1
 icon-next = 
-icon-next-foreground = ${colors.function}
+icon-next-foreground = #fbf1c7
 icon-next-margin = 1
 icon-repeat = 
 icon-repeat-margin = 1
 icon-random = 
 icon-random-margin = 1
 
-toggle-on-foreground = ${colors.success}
-toggle-off-foreground = ${colors.urgent}
+toggle-on-foreground = #fbf1c7
+toggle-off-foreground = #fbf1c7
 
 bar-progress-width = 20
 bar-progress-indicator = |
 bar-progress-fill = -
 bar-progress-empty = -
 bar-progress-gradient = true
-bar-progress-foreground-0 = ${colors.nord7}
-bar-progress-foreground-1 = ${colors.nord8}
-bar-progress-foreground-2 = ${colors.nord9}
+bar-progress-foreground-0 = #fbf1c7 
+bar-progress-foreground-1 = #fbf1c7
+bar-progress-foreground-2 = #fbf1c7
 
 [module/notify]
 type = custom/text
@@ -314,8 +314,8 @@ ramp-signal-1 = 
 ramp-signal-2 = 
 ramp-signal-3 = 
 
-ramp-signal-0-foreground = #83a598
-ramp-signal-0-underline = #83a598
+ramp-signal-0-foreground = #fbf1c7
+ramp-signal-0-underline = #fbf1c7
 
 ramp-signal-1-foreground = ${colors.notify}
 ramp-signal-1-underline = ${colors.notify}
@@ -367,7 +367,7 @@ click-right = ~/.config/polybar/scripts/clipmenu.sh toggle
 type = custom/text
 
 content = 
-content-background = ${colors.success}
+content-background = #fbf1c7
 content-foreground = #282828
 content-padding = 3
 
