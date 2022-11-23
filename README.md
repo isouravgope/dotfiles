@@ -1,5 +1,5 @@
 # Gruvbox I3-GAPS setup
-<p align="left"> <a href="https://github.com/arcticicestudio/styleguide-git/releases/latest" target="_blank"><img src="https://img.shields.io/github/release/arcticicestudio/styleguide-git.svg?style=flat-square&label=Git%20Style%20Guide&logoColor=eceff4&colorA=3c3836&colorB=fabd2f&logo=git"/></a></p>
+<p align="left"> <a href="https://github.com/arcticicestudio/styleguide-git/releases/latest" target="_blank"><img src="https://img.shields.io/github/release/arcticicestudio/styleguide-git.svg?style=flat-square&label=Git%20Style%20Guide&logoColor=fbf1c7&colorA=3c3836&colorB=fbf1c7&logo=git"/></a></p>
 
 
 # Installation for ArchLinux
@@ -66,14 +66,14 @@ config config --local status.showUntrackedFiles no
 </details>
 
 # Sample Screenshots 👑
-![](https://raw.githubusercontent.com/sourav2k/sampleshots/main/glass2.png)
+![](https://raw.githubusercontent.com/sourav2k/sampleshots/main/light1.png)
 
 
-![](https://raw.githubusercontent.com/sourav2k/sampleshots/main/glass1.png)
+![](https://raw.githubusercontent.com/sourav2k/sampleshots/main/light2.png)
 
 
-![](https://raw.githubusercontent.com/sourav2k/sampleshots/main/glass3.png)
+![](https://raw.githubusercontent.com/sourav2k/sampleshots/main/light3.png)
 
 
-![](https://raw.githubusercontent.com/sourav2k/sampleshots/main/glass4.png)
+![](https://raw.githubusercontent.com/sourav2k/sampleshots/main/light4.png)
 [Contact](https://wa.me/+919366855940)
