@@ -14,7 +14,8 @@ curl -LO https://raw.githubusercontent.com/Project-Junk/junk-scripts/main/gruvbo
 ### `Install the Packages Required`
  - git
  - jq 
- - clash 
+ - clash
+ - conky
  - feh 
  - yay 
  - dunst 
