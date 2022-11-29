@@ -28,8 +28,8 @@ conky.config = {
     maximum_width = 520, minimum_height = 1080,
 
     alignment = 'middle_right',
-    gap_x = 5,
-    gap_y = -348,
+    gap_x = 10,
+    gap_y = -80,
 
 -- Graphics settings #
     draw_shades = false,
@@ -39,7 +39,7 @@ conky.config = {
 
 -- Text settings #
     use_xft = true,
-    font = 'Roboto:style=Normal:size=10',
+    font = 'Roboto:style=Medium:size=10',
     xftalpha = 0.5,
 
     uppercase = false,
