@@ -35,7 +35,7 @@ exec xrandr --setprovideroutputsource modesetting NVIDIA-0
 exec xrandr --auto
 exec --no-startup-id ~/.config/i3/scripts/conky_start.sh
 exec --no-startup-id ~/.config/i3/scripts/conky_two.sh
-exec --no-startup-id glava --desktop
+#exec --no-startup-id  ~/.config/i3/scripts/glavastart.sh
 
 # switch to workspace
 bindsym $mod+1 workspace 1
