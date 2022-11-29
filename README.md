@@ -15,6 +15,7 @@ curl -LO https://raw.githubusercontent.com/Project-Junk/junk-scripts/main/gruvbo
  - git
  - jq 
  - clash
+ - glava
  - conky
  - feh 
  - yay 
