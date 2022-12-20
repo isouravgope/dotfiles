@@ -43,19 +43,19 @@ wm-restack = i3
 # clipmenu-widget: showing clipmenu service
 
 # Top modules
-top-left = rofi-run i3
+top-left = i3
 top-center = spotify mpd
 top-right = keyboard backlight alsa battery network-short date
 
 # Bottom modules
-bottom-left = powermenu info-hackspeed weather
+bottom-left = weather network-detail
 bottom-center = title
-bottom-right = network-detail temperature memory cpu
+bottom-right = cpu info-hackspeed temperature memory
 systray-top = none
 systray-bottom = right
 
 # global style
-line-size = 3.5
+line-size = 0
 
 # Modules configure option
 # the default value in this section should work in most cases,
