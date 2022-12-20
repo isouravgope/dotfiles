@@ -1,8 +1,10 @@
-sw_volume: 94
+sw_volume: 98
 audio_device_state:1:pulse audio
 audio_device_state:1:Visualizer
 audio_device_state:1:lossless
-state: stop
+state: play
+current: 13
+time: 120.070000
 random: 0
 repeat: 0
 single: 0
@@ -11,4 +13,19 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
+0:liked/Lil Nas X,Billy Ray Cyrus - Old Town Road - Remix.mp3
+1:liked/XXXTENTACION - Moonlight.mp3
+2:RandB/Lakshane - Selfish.mp3
+3:RandB/The Weeknd - A Lonely Night.mp3
+4:RandB/Drake - Hotline Bling.mp3
+5:RBIndia/Aadat - Atif Aslam (Juda Hoke Bhi) ｜ Omkar ｜ Latest Hindi Cover Song ｜ 2021.mp3
+6:RBIndia/NA - Kabhi Aayine Pe Full Video Song ｜ Hate Story 2 ｜ Jay Bhanushali ｜ Surveen Chawla.mp3
+7:RandB/theweeknd/The Weeknd - Often.mp3
+8:RandB/theweeknd/The Weeknd - Acquainted.mp3
+9:RandB/theweeknd/The Weeknd - In The Night.mp3
+10:RandB/theweeknd/The Weeknd,Ed Sheeran - Dark Times.mp3
+11:RandB/theweeknd/The Weeknd - Out of Time.mp3
+12:RBIndia/NA - 'Tu Hai Ki Nahi' FULL VIDEO Song ｜ Roy ｜ Ankit Tiwari ｜ Ranbir Kapoor, Jacqueline Fernandez, Tseries.mp3
+13:RBIndia/Jiyein Kyun - Lofi Rain Mix ｜ Chill Cafe.mp3
+14:RBIndia/NA - Jee Le Zaraa Song ｜ Talaash ｜ Omkar ｜ @JalRaj  ｜ Aamir Khan, Kareena Kapoor ｜ Latest Cover 2021.mp3
 playlist_end
