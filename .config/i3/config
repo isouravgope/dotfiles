@@ -36,7 +36,6 @@ exec xrandr --auto
 exec --no-startup-id ~/.config/i3/scripts/conky_start.sh
 exec --no-startup-id ~/.config/i3/scripts/conky_two.sh
 #exec --no-startup-id  ~/.config/i3/scripts/glavastart.sh
-
 # switch to workspace
 bindsym $mod+1 workspace 1
 bindsym $mod+2 workspace 2
@@ -272,7 +271,7 @@ font pango:Source Code Pro 13
 
 
 #Authentication dialog
-# exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
 
 #####################################################################################################################
@@ -340,9 +339,9 @@ popup_during_fullscreen smart
 #################                          i3 gaps next                                             #################
 #####################################################################################################################
 
-for_window [class="^.*"] border pixel 1
-gaps inner 10
-gaps outer 10
+for_window [class="^.*"] border pixel 3
+gaps inner 20
+gaps outer 20
 #smart_gaps on
 #smart_borders on
 
@@ -403,7 +402,7 @@ mode "$mode_gaps_outer" {
 #if you want transparency on non-focused windows, ...
 exec_always --no-startup-id picom --config ~/.config/picom/picom.sample.conf
 exec_always --no-startup-id ~/.config/i3/scripts/mouse.sh
-exec_always feh --bg-fill $HOME/Pictures/walls/fall.png
+exec_always feh --bg-fill $HOME/Pictures/walls/gruvherc.png
 exec_always --no-startup-id i3-auto-layout
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh dark
 exec_always --no-startup-id i3-auto-layout
@@ -452,8 +451,8 @@ set $base0F #fcc09e
 
     # Window color settings
     # class                 border  backgr. text    indicator
-    client.focused          #fbf1c7 #fbf1c7 #ffffff #fbf1c7
-    client.unfocused        #32302f #282828 #888888 #32302f
+    client.focused          #282828 #282828 #ffffff #282828
+    client.unfocused        #1d2021 #1d2021 #1d2021 #1d2021
     client.focused_inactive #282828 #282828 #888888 #282828
     client.placeholder      #282828 # #888888 #82828
     client.urgent           #900000 #900000 #ffffff #900000
