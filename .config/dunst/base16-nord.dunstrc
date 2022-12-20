@@ -27,7 +27,7 @@
     #icon_position = left
     frame_width = 1
     icon_folders = /usr/share/icons/breeze/apps/48/:/usr/share/icons/breeze/actions/48/:/usr/share/icons/breeze/places/48/:/usr/share/icons/breeze/status/48/
-    frame_color = "#fbf1c7"
+    frame_color = "#282828"
     
 [shortcuts]
     close = ctrl+space
