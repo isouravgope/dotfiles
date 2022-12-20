@@ -181,7 +181,7 @@ font:
 
 colors:
   primary:
-    background: '0x282828'
+    background: '0x1d2021'
     foreground: '0xdfbf8e'
 
   normal:
