@@ -68,14 +68,12 @@ config config --local status.showUntrackedFiles no
 </details>
 
 # Sample Screenshots 👑
-![](https://raw.githubusercontent.com/sourav2k/sampleshots/main/light1.png)
+![](https://raw.githubusercontent.com/thefallnn/sampleshots/main/gruv-prometheus.png)
 
 
-![](https://raw.githubusercontent.com/sourav2k/sampleshots/main/light2.png)
+![](https://raw.githubusercontent.com/thefallnn/sampleshots/main/gruv-prometheus1.png)
 
 
-![](https://raw.githubusercontent.com/sourav2k/sampleshots/main/light3.png)
+![](https://raw.githubusercontent.com/thefallnn/sampleshots/main/gruv-prometheus2.png)
 
-
-![](https://raw.githubusercontent.com/sourav2k/sampleshots/main/light4.png)
 [Contact](https://wa.me/+919366855940)
