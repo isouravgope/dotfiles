@@ -34,7 +34,6 @@ exec --no-startup-id xrandr --output eDP-1-1 --mode 1920x1080 --rate 60.00
 exec xrandr --setprovideroutputsource modesetting NVIDIA-0
 exec xrandr --auto
 exec --no-startup-id ~/.config/i3/scripts/conky_start.sh
-exec --no-startup-id ~/.config/i3/scripts/conky_two.sh
 #exec --no-startup-id  ~/.config/i3/scripts/glavastart.sh
 # switch to workspace
 bindsym $mod+1 workspace 1
@@ -66,10 +65,10 @@ bindsym $mod+Shift+9 move container to workspace 9
 #####################################################################################################################
 
 # start dmenu
-bindsym $mod+shift+d exec --no-startup-id dmenu_run -i -nb '#2E3440' -nf '#81a1c1' -sb '#81a1c1' -sf '#2E3440' -fn 'SourceCodePro:bold:pixelsize=16'
+#bindsym $mod+shift+d exec --no-startup-id dmenu_run -i -nb '#2E3440' -nf '#81a1c1' -sb '#81a1c1' -sf '#2E3440' -fn 'SourceCodePro:bold:pixelsize=16'
 
 # start rofi full
-bindsym $mod+d exec --no-startup-id rofi -show drun -font "Source Code Pro 14"
+bindsym $mod+shift+d exec --no-startup-id rofi -show drun -font "Source Code Pro 14"
 
 
 
@@ -282,7 +281,8 @@ bindsym $mod+Return exec --no-startup-id alacritty;focus
 
 bindsym control+mod1+u exec --no-startup-id pavucontrol
 
-bindsym $mod+Shift+Return exec --no-startup-id thunar;focus
+bindsym $mod+Shift+Return exec --no-startup-id alacritty -e ranger ;focus
+ bindsym $mod+d exec --no-startup-id dolphin;focus
 
 
 
@@ -339,7 +339,7 @@ popup_during_fullscreen smart
 #################                          i3 gaps next                                             #################
 #####################################################################################################################
 
-for_window [class="^.*"] border pixel 3
+for_window [class="^.*"] border pixel 3.5
 gaps inner 20
 gaps outer 20
 #smart_gaps on
@@ -402,13 +402,14 @@ mode "$mode_gaps_outer" {
 #if you want transparency on non-focused windows, ...
 exec_always --no-startup-id picom --config ~/.config/picom/picom.sample.conf
 exec_always --no-startup-id ~/.config/i3/scripts/mouse.sh
-exec_always feh --bg-fill $HOME/Pictures/walls/gruvherc.png
+#exec_always feh --bg-fill $HOME/Pictures/walls/gruv_black.png
+exec_always xwallpaper --tile $HOME/Pictures/walls/gruvtile.png 
 exec_always --no-startup-id i3-auto-layout
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh dark
 exec_always --no-startup-id i3-auto-layout
 exec_always --no-startup-id dunst -config $HOME/.config/dunst/base16-nord.dunstrc
 #note: my custom dunst configuration can be found here https://pastebin.com/P4i1N8ub curl it to $HOME/.config/dunst/base16-nord.dunstrc
-exec_always --no-startup-id /usr/lib/kdeconnectd
+#exec_always --no-startup-id /usr/lib/kdeconnectd
 
 bindsym Mod4+Mod1+Shift+minus exec \
   i3-msg "gaps outer current minus 5" && \
