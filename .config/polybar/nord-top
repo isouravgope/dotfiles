@@ -138,6 +138,15 @@ label-maxlen = 30
 label-empty = Sourav2k @ Arch Linux (Pavilion)
 label-empty-foreground = #00282828
 
+
+[module/mpv-polybar]
+type = custom/script
+exec = ~/.config/polybar/scripts/mpv.sh
+interval = 1
+label-foreground = #504945
+click-left = echo 'cycle pause' | socat - /tmp/mpvsocket
+click-right = echo 'cycle mute' | socat - /tmp/mpvsocket
+
 [module/date]
 type = internal/date
 interval = 1.0
@@ -317,14 +326,14 @@ ramp-signal-3 = 
 ramp-signal-0-foreground = #504945
 ramp-signal-0-underline = #504945
 
-ramp-signal-1-foreground = ${colors.notify}
-ramp-signal-1-underline = ${colors.notify}
+ramp-signal-1-foreground = #504945
+ramp-signal-1-underline = #504945 
 
 ramp-signal-2-foreground = ${colors.nord7}
 ramp-signal-2-underline = ${colors.nord7}
 
-ramp-signal-3-foreground = ${colors.success}
-ramp-signal-3-underline = ${colors.success}
+ramp-signal-3-foreground = #504945
+ramp-signal-3-underline = #504945
 
 [module/clash-widget]
 type = custom/script
