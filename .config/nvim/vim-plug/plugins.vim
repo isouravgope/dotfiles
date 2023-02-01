@@ -7,6 +7,7 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
+    Plug 'https://github.com/ycm-core/YouCompleteMe'
     Plug 'ggreer/the_silver_searcher'
     Plug 'erietz/vim-terminator', { 'branch': 'main'}
     Plug 'sheerun/vim-polyglot'
@@ -24,14 +25,17 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'https://github.com/tpope/vim-fugitive'
     Plug 'https://github.com/preservim/tagbar', {'on': 'TagbarToggle'} " Tagbar for code navigation
     Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
-    Plug 'https://github.com/ryanoasis/vim-devicons' " Developer Icons
     Plug 'https://github.com/vim-airline/vim-airline' " Status bar
+    Plug 'vim-airline/vim-airline-themes'
     Plug 'https://github.com/davidhalter/jedi-vim'
     Plug 'https://github.com/junegunn/fzf.vim' " Fuzzy Finder, Needs Silversearcher-ag for :Ag
     Plug 'https://github.com/junegunn/fzf'
     Plug 'morhetz/gruvbox'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'myusuf3/numbers.vim'
+    Plug 'https://github.com/ryanoasis/vim-devicons' " Developer Icons
+    Plug 'nvim-telescope/telescope.nvim'
+    Plug 'nvim-lua/plenary.nvim'
 call plug#end()
 
 set encoding=UTF-8
@@ -39,7 +43,7 @@ set encoding=UTF-8
 :colorscheme gruvbox
 
 " VIM AIRLINE CONFIGURATION
-
+let g:airline_theme='gruvbox'
 let g:airline_powerline_fonts = 1
 
 if !exists('g:airline_symbols')
@@ -60,16 +64,20 @@ let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''
 
 "C/C++
-" let g:runner_c_compiler = 'gcc'
-" let g:runner_cpp_compiler = 'g++'
-" let g:runner_c_options = '-std=c99 -Wall'
-" let g:runner_cpp_options = '-std=c++11 -Wall'
+let g:runner_c_compiler = 'gcc'
+let g:runner_cpp_compiler = 'g++'
+let g:runner_c_options = '-std=c99 -Wall'
+let g:runner_cpp_options = '-std=c++11 -Wall'
 
 nmap <F8> :TagbarToggle<CR>
 nnoremap <F3> :NumbersToggle<CR>
 nnoremap <F4> :NumbersOnOff<CR>
 
 " for coc keybinding
+let g:ycm_auto_trigger = 0
+imap <c-d> <plug>(YCMComplete)
+
+nnoremap <leader>jd :YcmCompleter GoTo<CR>
 inoremap <expr> <Tab> pumvisible() ? coc#_select_confirm() : "<Tab>" 
 function MyCustomHighlights()
     hi semshiGlobal      ctermfg=blue guifg=#61afef
