@@ -5,7 +5,7 @@
 # Installation for ArchLinux
 ```
 
-curl -LO https://raw.githubusercontent.com/Project-Junk/junk-scripts/main/gruvbox-sourav.sh && chmod a+x gruvbox-sourav.sh && ./gruvbox-sourav.sh
+curl -LO https://raw.githubusercontent.com/Project-Junk/junk-scripts/main/i3wm-gruvbox.sh && chmod a+x i3wm-gruvbox.sh && ./i3wm-gruvbox.sh
 ```
 
 <details>
@@ -48,7 +48,7 @@ curl -LO https://raw.githubusercontent.com/Project-Junk/junk-scripts/main/gruvbo
  
  echo ".cfg" >> .gitignore
  
- git clone --bare https://github.com/sourav2k/dotfiles.git -b i3-gaps-gruvbox $HOME/.cfg
+ git clone --bare https://github.com/sourav2k/dotfiles.git -b i3wm-gruvbox $HOME/.cfg
  
  alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
  
@@ -68,14 +68,14 @@ config config --local status.showUntrackedFiles no
 </details>
 
 # Sample Screenshots 👑
-![](https://raw.githubusercontent.com/sourav2k/sampleshots/main/light1.png)
+![](https://raw.githubusercontent.com/sourav2k/sampleshots/main/gruv-final3.png)
 
 
-![](https://raw.githubusercontent.com/sourav2k/sampleshots/main/light2.png)
+![](https://raw.githubusercontent.com/sourav2k/sampleshots/main/gruv-final2.png)
 
 
-![](https://raw.githubusercontent.com/sourav2k/sampleshots/main/light3.png)
+![](https://raw.githubusercontent.com/sourav2k/sampleshots/main/gruv-final1.png)
 
 
-![](https://raw.githubusercontent.com/sourav2k/sampleshots/main/light4.png)
+![](https://raw.githubusercontent.com/sourav2k/sampleshots/main/gruv-final4.png)
 [Contact](https://wa.me/+919366855940)
