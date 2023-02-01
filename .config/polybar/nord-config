@@ -43,7 +43,7 @@ wm-restack = i3
 # clipmenu-widget: showing clipmenu service
 
 # Top modules
-top-left = i3
+top-left = i3 mpv-polybar
 top-center = spotify mpd
 top-right = keyboard backlight alsa battery network-short date
 
