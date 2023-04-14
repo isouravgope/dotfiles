@@ -2,8 +2,8 @@
 
 [colors]
 background = #001d2021
-buffer = #3c3836
-foreground = #504945
+buffer = #1d2021
+foreground = #1d2021
 nord6 = #fbf1c7
 ;yellow lite
 nord7 = #8ec07c 

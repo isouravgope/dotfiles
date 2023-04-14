@@ -130,8 +130,8 @@ label-urgent-padding = 2
 
 [module/title]
 type = internal/xwindow
-format-foreground = #504945
-format-underline = #504945
+format-foreground = #000000
+format-underline = #000000
 format-padding = 4
 
 label-maxlen = 30
@@ -227,15 +227,15 @@ label-muted-foreground = ${colors.urgent}
 label-muted-underline = ${colors.urgent}
 
 ramp-volume-0 = 
-ramp-volume-0-foreground = #504945
+ramp-volume-0-foreground = #1d2021
 ramp-volume-1 = 
-ramp-volume-1-foreground = #504945
+ramp-volume-1-foreground = #1d2021
 ramp-volume-2 = 
 ramp-volume-2-foreground = ${colors.urgent}
 
 ramp-headphones-0 = 
 
-ramp-volume-foreground = #504945
+ramp-volume-foreground = #1d2021
 
 [module/backlight]
 type = internal/backlight
@@ -262,40 +262,40 @@ format-online = <toggle> <icon-prev> <label-song> <icon-next> <icon-stop> | <bar
 format-paused = <toggle> <icon-prev> <label-song> <icon-next> <icon-stop>
 format-stopped =  <toggle>
 
-label-song-underline = #504945
+label-song-underline = #1d2021
 label-song = %artist:0:10:...% - %title:0:10:...%
 
 icon-play = 
-icon-play-foreground = #504945
+icon-play-foreground = #1d2021
 icon-play-margin = 1
 icon-pause = 
-icon-pause-foreground = #504945
+icon-pause-foreground = #1d2021
 icon-pause-margin = 1
 icon-stop = 
-icon-stop-foreground = #504945
+icon-stop-foreground = #1d2021
 icon-stop-margin = 1
 icon-prev = 
-icon-prev-foreground = #504945
+icon-prev-foreground = #1d2021
 icon-prev-margin = 1
 icon-next = 
-icon-next-foreground = #504945
+icon-next-foreground = #1d2021
 icon-next-margin = 1
 icon-repeat = 
 icon-repeat-margin = 1
 icon-random = 
 icon-random-margin = 1
 
-toggle-on-foreground = #504945
-toggle-off-foreground = #504945
+toggle-on-foreground = #1d2021
+toggle-off-foreground = #1d2021
 
 bar-progress-width = 20
 bar-progress-indicator = |
 bar-progress-fill = -
 bar-progress-empty = -
 bar-progress-gradient = true
-bar-progress-foreground-0 = #504945 
-bar-progress-foreground-1 = #504945
-bar-progress-foreground-2 = #504945
+bar-progress-foreground-0 = #1d2021 
+bar-progress-foreground-1 = #1d2021
+bar-progress-foreground-2 = #1d2021
 
 [module/notify]
 type = custom/text
@@ -323,17 +323,17 @@ ramp-signal-1 = 
 ramp-signal-2 = 
 ramp-signal-3 = 
 
-ramp-signal-0-foreground = #504945
-ramp-signal-0-underline = #504945
+ramp-signal-0-foreground = #1d2021
+ramp-signal-0-underline = #1d2021
 
-ramp-signal-1-foreground = #504945
-ramp-signal-1-underline = #504945 
+ramp-signal-1-foreground = #1d2021
+ramp-signal-1-underline = #1d2021 
 
 ramp-signal-2-foreground = ${colors.nord7}
 ramp-signal-2-underline = ${colors.nord7}
 
-ramp-signal-3-foreground = #504945
-ramp-signal-3-underline = #504945
+ramp-signal-3-foreground = #1d2021
+ramp-signal-3-underline = #1d2021
 
 [module/clash-widget]
 type = custom/script
@@ -376,7 +376,7 @@ click-right = ~/.config/polybar/scripts/clipmenu.sh toggle
 type = custom/text
 
 content = 
-content-background = #504945
+content-background = #1d2021
 content-foreground = #282828
 content-padding = 3
 

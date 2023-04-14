@@ -38,7 +38,7 @@ visualizer_in_stereo = "no"
 visualizer_type = "wave"
 visualizer_fps = "60"
 visualizer_look = ●▮
-visualizer_color = "187"
+visualizer_color = "10"
 
 # PROGRESS BAR
 # ---
