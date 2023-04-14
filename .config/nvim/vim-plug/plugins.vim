@@ -36,12 +36,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'https://github.com/ryanoasis/vim-devicons' " Developer Icons
     Plug 'nvim-telescope/telescope.nvim'
     Plug 'nvim-lua/plenary.nvim'
+    Plug 'https://github.com/ellisonleao/gruvbox.nvim'
+    Plug 'yorickpeterse/vim-paper'
 call plug#end()
 
 set encoding=UTF-8
-
-:colorscheme gruvbox
-
+" color scheme goes here TODO:
 " VIM AIRLINE CONFIGURATION
 let g:airline_theme='gruvbox'
 let g:airline_powerline_fonts = 1
