@@ -38,6 +38,7 @@ curl -LO https://raw.githubusercontent.com/Project-Junk/junk-scripts/main/i3wm-g
  - cava
  - polybar 
  - picom-jonaburg-git
+ - python-pynvim
  
  ### `Now install the dotfiles`
  [Reference](https://www.atlassian.com/git/tutorials/dotfiles)
