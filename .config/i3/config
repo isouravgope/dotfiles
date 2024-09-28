@@ -282,7 +282,7 @@ bindsym $mod+Return exec --no-startup-id alacritty;focus
 bindsym control+mod1+u exec --no-startup-id pavucontrol
 
 bindsym $mod+Shift+Return exec --no-startup-id alacritty -e ranger ;focus
- bindsym $mod+d exec --no-startup-id dolphin;focus
+ bindsym $mod+d exec --no-startup-id nautilus;focus
 
 
 
@@ -403,7 +403,7 @@ mode "$mode_gaps_outer" {
 exec_always --no-startup-id picom --config ~/.config/picom/picom.sample.conf
 exec_always --no-startup-id ~/.config/i3/scripts/mouse.sh
 #exec_always feh --bg-fill $HOME/Pictures/walls/gruv_black.png
-exec_always xwallpaper --tile $HOME/Pictures/walls/gruvtile.png 
+exec_always xwallpaper --tile $HOME/Pictures/walls/gruvtiledark.png
 exec_always --no-startup-id i3-auto-layout
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh dark
 exec_always --no-startup-id i3-auto-layout
@@ -455,7 +455,7 @@ set $base0F #fcc09e
     client.focused          #282828 #282828 #ffffff #282828
     client.unfocused        #1d2021 #1d2021 #1d2021 #1d2021
     client.focused_inactive #282828 #282828 #888888 #282828
-    client.placeholder      #282828 # #888888 #82828
+    client.placeholder      #282828 #282828 #888888 #828282
     client.urgent           #900000 #900000 #ffffff #900000
 
     client.background       #242424
