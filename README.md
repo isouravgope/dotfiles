@@ -62,7 +62,7 @@ xargs -I{} mv {} .config-backup/{}
 config checkout
 
 config config --local status.showUntrackedFiles no
-
+# NOTE: To install the YouCompleteMe for nvim , you need to sudo rm -rf ~/.config/nvim/autoload/plugged/YouCompleteMe then python3 install.py --all
  ```
 
 </details>
