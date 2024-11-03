@@ -31,8 +31,11 @@ set $right semicolon
 #################                          Single and Dual screen                                   #################
 #####################################################################################################################
 exec --no-startup-id xrandr --output eDP-1-1 --mode 1920x1080 --rate 60.00 
-exec xrandr --setprovideroutputsource modesetting NVIDIA-0
-exec xrandr --auto
+#exec xrandr --setprovideroutputsource modesetting NVIDIA-0
+#exec xrandr --auto
+exec --no-startup-id xrandr --setprovideroutputsource modesetting NVIDIA-0
+exec --no-startup-id xrandr --auto
+exec --no-startup-id xrandr --dpi 96
 exec --no-startup-id ~/.config/i3/scripts/conky_start.sh
 #exec --no-startup-id  ~/.config/i3/scripts/glavastart.sh
 # switch to workspace
@@ -400,7 +403,8 @@ mode "$mode_gaps_outer" {
 #####################################################################################################################
 
 #if you want transparency on non-focused windows, ...
-exec_always --no-startup-id picom --config ~/.config/picom/picom.sample.conf
+exec_always --no-startup-id picom --animations -b
+#exec_always --no-startup-id picom --config ~/.config/picom/picom.sample.conf
 exec_always --no-startup-id ~/.config/i3/scripts/mouse.sh
 #exec_always feh --bg-fill $HOME/Pictures/walls/gruv_black.png
 exec_always xwallpaper --tile $HOME/Pictures/walls/gruvtiledark.png
